@@ -58,10 +58,10 @@ body {
   font-family: var(--body-typeface);
   color: var(--primary-text-color);
   background: var(--background-color);
-  display: flex;
-  flex-direction: column;
   min-height: 100vh;
 }
+
+
 
 ::selection {
   background: rgb(255, 186, 220);
@@ -117,11 +117,30 @@ p {}
 
 */
 
+.grid-container {  display: grid;
+  grid-template-columns: repeat(100, 1fr);
+  grid-template-rows: repeat(100, 1vh);
+  /* place-items: center; */
 
+}
 
+.grid-item-1 {
+  background:rgb(255, 186, 220);
+  grid-column: 25 / 35;
+  grid-row: 15 / 25;
+  display: grid;
+  justify-items: center;
+  align-items: center;  
+}
 
-
-
+.grid-item-2 {
+  background:rgb(255, 186, 220);
+  grid-column: 75 / 85;
+  grid-row: 35 / 45;
+  display: grid;
+  justify-items: center;
+  align-items: center;
+}
 
 /* Hero 
 
