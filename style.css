@@ -50,7 +50,7 @@ html {
 :root {
   --primary-text-color: #222;
   --body-typeface: 'Space Grotesk', sans-serif;
-  --background-color: rgb(255, 226, 226);
+  --background-color: #FFF5F5;
 }
 
 
@@ -118,8 +118,8 @@ p {}
 */
 
 .grid-container {  display: grid;
-  grid-template-columns: repeat(100, 1fr);
-  grid-template-rows: repeat(100, 1vh);
+  grid-template-columns: repeat(77, 1fr);
+  grid-template-rows: repeat(45, 1vh);
   /* place-items: center; */
 
 }
@@ -135,7 +135,7 @@ p {}
 
 .grid-item-2 {
   background:rgb(255, 186, 220);
-  grid-column: 75 / 85;
+  grid-column: 65 / 70;
   grid-row: 35 / 45;
   display: grid;
   justify-items: center;
@@ -151,8 +151,9 @@ p {}
 ██   ██ ███████ ██   ██  ██████  
                                  
 */
-
-
+.logo {
+  margin: 25px;
+}
 
 
 /* Global Footer
@@ -165,6 +166,45 @@ p {}
                                                    
 */
 
+.button1 {
+  background-color: #FFF5F5;
+  border: 2.5px solid white;
+  display:block;
+  height: 40px;
+  width: 40px;
+  margin: 10px;
+  border-radius: 50%;
+}
+
+.button2 {
+  background-color: #D2F4FF;
+  border: 2.5px solid white;
+  display:block;
+  height: 40px;
+  width: 40px;
+  margin: 10px;
+  border-radius: 50%;
+}
+
+.button3 {
+  background-color: #53815D;
+  border: 2.5px solid white;
+  display:block;
+  height: 40px;
+  width: 40px;
+  margin: 10px;
+  border-radius: 50%;
+}
+
+.button4 {
+  background-color: #DD3E3E;
+  border: 2.5px solid white;
+  display:block;
+  height: 40px;
+  width: 40px;
+  margin: 10px;
+  border-radius: 50%;
+}
 
 
 /* Project Page 
