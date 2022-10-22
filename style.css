@@ -283,22 +283,20 @@ p {}
   .name {
     grid-column: 10 / 19;
     grid-row: 3 / 7;
-    margin-left: 10px;
+    margin-left: 15px;
   }
   
   .grid-item-1 {
-    background:rgb(255, 186, 220);
-    grid-column: 7 / 16;
-    grid-row: 14 / 27;
+    grid-column: 7 / 17;
+    grid-row: 14 / 28;
     display: grid;
     justify-items: center;
     align-items: center;  
   }
   
   .grid-item-2 {
-    background:rgb(255, 186, 220);
-    grid-column: 65 / 70;
-    grid-row: 35 / 45;
+    grid-column: 23 / 41;
+    grid-row: 7 / 14;
     display: grid;
     justify-items: center;
     align-items: center;
@@ -306,10 +304,11 @@ p {}
   
   
   .grid-item-3 {
-    background:rgb(133, 82, 107);
-    grid-column: 65 / 70;
-    grid-row: 35 / 45;
-  
+    grid-column: 7 / 23;
+    grid-row: 32 / 42;
+    display: grid;
+    justify-items: center;
+    align-items: center;
   }
 
 }
