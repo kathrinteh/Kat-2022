@@ -251,12 +251,19 @@ p {}
     /* place-items: center; */
   }
 
+  h1 {
+    font-size: 35px;
+    font-weight: 700;
+    line-height: 48px;
+  }
+
   .button-container {
     grid-column: 74 / 76;
-    grid-row: 38 / 46;
+    grid-row: 37 / 42;
     display: grid;
-    justify-items: center;
-    align-items: center; 
+    margin-right: 30px;
+    justify-items: left;
+    align-items: left; 
   }
 
   .button1 {
@@ -287,13 +294,12 @@ p {}
     border: 2px solid white;
     height: 32px;
     width: 32px;
-    margin-bottom: 8px;
-    border-radius: 50%;
   }
 
   .header-menu{
     display: grid;
-    grid-column: 70 / 76;
+    width: 100%;
+    grid-column: 65 / 76;
     grid-row: 3 / 10;
     justify-items: right;
     align-items: right;
@@ -391,13 +397,17 @@ p {}
     /* place-items: center; */
   
   }
-
+  h1 {
+    font-size: 45px;
+    font-weight: 700;
+    line-height: 52.13px;
+  }
   .button-container {
-    grid-column: 74 / 76;
-    grid-row: 36 / 45;
+    grid-column: 74 / 78;
+    grid-row: 36 / 44;
     display: grid;
-    justify-items: right;
-    align-items: right; 
+    justify-items: center;
+    align-items: center; 
   }
 
   .button1 {
@@ -428,8 +438,8 @@ p {}
   }
 
   .header-menu{
-    display: grid;
-    grid-column: 70 / 76;
+    display: flex;
+    grid-column: 71 / 77;
     grid-row: 3 / 10;
     justify-items: right;
     align-items: right;
