@@ -59,6 +59,8 @@ body {
   color: var(--primary-text-color);
   background: var(--background-color);
   min-height: 100vh;
+  margin: right 1em;;
+  margin: bottom 1em;;
 }
 
 
@@ -242,23 +244,51 @@ p {}
 @media (min-width: 576px) {}
 
 /* Medium devices (tablets, 768px and up) */
-@media (min-width: 768px) {}
-
-/* Large devices (desktops, 992px and up) */
-@media (min-width: 992px) {
+@media (min-width: 768px) {
   .grid-container {  display: grid;
     grid-template-columns: repeat(77, 1fr);
     grid-template-rows: repeat(45, 2.22222222vh);
     /* place-items: center; */
-  
   }
 
   .button-container {
     grid-column: 74 / 76;
-    grid-row: 35 / 44;
+    grid-row: 38 / 46;
     display: grid;
     justify-items: center;
     align-items: center; 
+  }
+
+  .button1 {
+    border: 2px solid white;
+    height: 32px;
+    width: 32px;
+    margin-bottom: 8px;
+    border-radius: 50%;
+  }
+
+  .button2 {
+    border: 2px solid white;
+    height: 32px;
+    width: 32px;
+    margin-bottom: 8px;
+    border-radius: 50%;
+  }
+
+  .button3 {
+    border: 2px solid white;
+    height: 32px;
+    width: 32px;
+    margin-bottom: 8px;
+    border-radius: 50%;
+  }
+
+  .button4 {
+    border: 2px solid white;
+    height: 32px;
+    width: 32px;
+    margin-bottom: 8px;
+    border-radius: 50%;
   }
 
   .header-menu{
@@ -281,6 +311,143 @@ p {}
    }
   
   .name {
+    max-width: 100%;
+    grid-column: 10 / 19;
+    grid-row: 3 / 7;
+    margin-left: 15px;
+  }
+
+  /* THUMBNAIL IMAGES */
+  .capstone-thumbnail {
+    grid-column: 7 / 20;
+    grid-row: 13 / 30;
+    display: grid;
+    justify-items: center;
+    align-items: center;  
+  }
+  
+  .kickboxing-thumbnail {
+    grid-column: 26 / 46;
+    grid-row: 5 / 16;
+    display: grid;
+    justify-items: center;
+    align-items: center;
+  }
+  
+  .indigenous-thumbnail {
+    grid-column: 5 / 24;
+    grid-row: 31 / 44;
+    display: grid;
+    justify-items: center;
+    align-items: center;
+  }
+
+  .gossamer-gin-thumbnail {
+    grid-column: 29 / 46;
+    grid-row: 34 / 46;
+    display: grid;
+    justify-items: center;
+    align-items: center;
+  }
+
+  .keyboard-thumbnail {
+    grid-column: 51 / 69;
+    grid-row: 36 / 46;
+    display: grid;
+    justify-items: center;
+    align-items: center;
+  }
+
+  .baobao-thumbnail {
+    grid-column: 52 / 71;
+    grid-row: 11 / 23;
+    display: grid;
+    justify-items: center;
+    align-items: center;
+  }
+
+  .pinkie-swear-thumbnail {
+    grid-column: 54 / 73;
+    grid-row: 23 / 33;
+    display: grid;
+    justify-items: center;
+    align-items: center;
+  }
+
+  .butterly-thumbnail {
+    grid-column: 29 / 42;
+    grid-row: 18 / 33;
+    display: grid;
+    justify-items: center;
+    align-items: center;
+  }
+}
+
+/* Large devices (desktops, 992px and up) */
+@media (min-width: 1000px) {
+  .grid-container {  display: grid;
+    grid-template-columns: repeat(77, 1fr);
+    grid-template-rows: repeat(45, 2.22222222vh);
+    /* place-items: center; */
+  
+  }
+
+  .button-container {
+    grid-column: 74 / 76;
+    grid-row: 36 / 45;
+    display: grid;
+    justify-items: right;
+    align-items: right; 
+  }
+
+  .button1 {
+    border: 2.5px solid white;
+    height: 38px;
+    width: 38px;
+    margin-bottom: 10px;
+  }
+  
+  .button2 {
+    border: 2.5px solid white;
+    height: 38px;
+    width: 38px;
+    margin-bottom: 10px;
+  }
+  
+  .button3 {
+    border: 2.5px solid white;
+    height: 38px;
+    width: 38px;
+    margin-bottom: 10px;
+  }
+  
+  .button4 {
+    border: 2.5px solid white;
+    height: 38px;
+    width: 38px;
+  }
+
+  .header-menu{
+    display: grid;
+    grid-column: 70 / 76;
+    grid-row: 3 / 10;
+    justify-items: right;
+    align-items: right;
+  }
+
+  .branding {  
+    grid-column: 3 / 19;
+    grid-row: 3 / 10;
+    display: flex;
+   }
+
+   .logo {  
+    grid-column: 3 / 11;
+    grid-row: 3 / 10;
+   }
+  
+  .name {
+    max-width: 100%;
     grid-column: 10 / 19;
     grid-row: 3 / 7;
     margin-left: 15px;
