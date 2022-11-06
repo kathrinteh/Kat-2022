@@ -279,12 +279,12 @@ p {
   }
 
   h3 {
-    font-size: 25px;
-    line-height: 38px;
+    font-size: 22px;
+    line-height: 36px;
   }
 
   h4 {
-    font-size: 21px;
+    font-size: 19px;
     line-height: 30.62px;
 }
 
@@ -385,16 +385,16 @@ p {
   }
 
   .gossamer-gin-thumbnail {
-    grid-column: 29 / 46;
-    grid-row: 34 / 46;
+    grid-column: 30 / 46;
+    grid-row: 33 / 45;
     display: grid;
     justify-items: center;
     align-items: center;
   }
 
   .keyboard-thumbnail {
-    grid-column: 51 / 69;
-    grid-row: 36 / 46;
+    grid-column: 52 / 69;
+    grid-row: 31 / 44;
     display: grid;
     justify-items: center;
     align-items: center;
@@ -402,7 +402,7 @@ p {
 
   .baobao-thumbnail {
     grid-column: 52 / 71;
-    grid-row: 11 / 23;
+    grid-row: 8 / 20;
     display: grid;
     justify-items: center;
     align-items: center;
@@ -410,7 +410,7 @@ p {
 
   .pinkie-swear-thumbnail {
     grid-column: 54 / 73;
-    grid-row: 23 / 33;
+    grid-row: 21 / 31;
     display: grid;
     justify-items: center;
     align-items: center;
@@ -519,7 +519,7 @@ DEVICES
 
   /* THUMBNAIL IMAGES */
   .capstone-thumbnail {
-    grid-column: 8 / 18;
+    grid-column: 7 / 18;
     grid-row: 13 / 27;
     display: grid;
     justify-items: center;
@@ -527,8 +527,8 @@ DEVICES
   }
   
   .kickboxing-thumbnail {
-    grid-column: 25 / 41;
-    grid-row: 5 / 14;
+    grid-column: 24 / 42;
+    grid-row: 5 / 16;
     display: grid;
     justify-items: center;
     align-items: center;
@@ -543,40 +543,40 @@ DEVICES
   }
 
   .gossamer-gin-thumbnail {
-    grid-column: 28 / 40;
-    grid-row: 22 / 32;
+    grid-column: 26 / 41;
+    grid-row: 19 / 32;
     display: grid;
     justify-items: center;
     align-items: center;
   }
 
   .keyboard-thumbnail {
-    grid-column: 31 / 42;
-    grid-row: 36 / 40;
+    grid-column: 29 / 42;
+    grid-row: 36 / 41;
     display: grid;
     justify-items: center;
     align-items: center;
   }
 
   .baobao-thumbnail {
-    grid-column: 49 / 65;
-    grid-row: 8 / 19;
+    grid-column: 48 / 65;
+    grid-row: 8 / 20;
     display: grid;
     justify-items: center;
     align-items: center;
   }
 
   .pinkie-swear-thumbnail {
-    grid-column: 48 / 61;
-    grid-row: 26 / 36;
+    grid-column: 47 / 62;
+    grid-row: 25 / 37;
     display: grid;
     justify-items: center;
     align-items: center;
   }
 
   .butterly-thumbnail {
-    grid-column: 68 / 76;
-    grid-row: 22 / 32;
+    grid-column: 67 / 76;
+    grid-row: 21 / 32;
     display: grid;
     justify-items: center;
     align-items: center;
@@ -700,8 +700,8 @@ DEVICES
   }
 
   .gossamer-gin-thumbnail {
-    grid-column: 28 / 40;
-    grid-row: 22 / 32;
+    grid-column: 28 / 41;
+    grid-row: 20 / 32;
     display: grid;
     justify-items: center;
     align-items: center;
