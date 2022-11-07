@@ -59,8 +59,8 @@ body {
   color: var(--primary-text-color);
   background: var(--background-color);
   min-height: 100vh;
-  margin: right 1em;;
-  margin: bottom 1em;;
+  margin-right: 1em;
+  margin-bottom: 1em;
 }
 
 
@@ -80,7 +80,9 @@ img {
 
 }
 
-svg {max-width: 100%;}
+svg {
+  max-width: 100%;
+}
 
 /* Global & Mobile Typography 
 
@@ -93,35 +95,35 @@ svg {max-width: 100%;}
 */
 
 h1 {
-    font-size: 45px;
-    font-weight: 700;
-    line-height: 52.13px;
+  font-size: 45px;
+  font-weight: 700;
+  line-height: 52.13px;
 }
 
 h2 {
-    font-size: 21px;
-    font-weight: 500;
-    line-height: 31px;
-    text-align: right;
+  font-size: 21px;
+  font-weight: 500;
+  line-height: 31px;
+  text-align: right;
 }
 
 h3 {
-    font-size: 35px;
-    font-weight: 500;
-    line-height: 44.66px;
-    margin-bottom: 20px;
+  font-size: 35px;
+  font-weight: 500;
+  line-height: 44.66px;
+  margin-bottom: 20px;
 }
 
 h4 {
-    font-size: 24px;
-    font-weight: 700;
-    line-height: 30.62px;
+  font-size: 24px;
+  font-weight: 700;
+  line-height: 30.62px;
 }
 
 h5 {
-    font-size: 20px;
-    font-weight: 400;
-    line-height: 31px;
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 31px;
 }
 
 /* Hyperlink Styles */
@@ -132,9 +134,9 @@ a:active {}
 
 
 p {
-    font-size: 20px;
-    font-weight: 400;
-    line-height: 25.52px;
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 25.52px;
 }
 
 
@@ -149,21 +151,22 @@ p {
 
 */
 
-.grid-container {  display: grid;
-  grid-template-columns: repeat(2, 1fr);
+.grid-container {
+  display: grid;
+  grid-template-columns: 1fr;
   grid-template-rows: repeat(45, 2.22222222vh);
   /* place-items: center; */
 
 }
 
-  
+
 .grid-item-1 {
-  background:rgb(255, 186, 220);
-  grid-column: 1 / 3;
+  background: rgb(255, 186, 220);
+  grid-column: 1 / 2;
   grid-row: 2 / 3;
-  display: grid;
+
   justify-items: center;
-  align-items: center;  
+  align-items: center;
 }
 
 /* Hero 
@@ -196,7 +199,7 @@ p {
 .button1 {
   background-color: #FFF5F5;
   border: 2.5px solid white;
-  display:block;
+  display: block;
   height: 38px;
   width: 38px;
   margin-bottom: 10px;
@@ -206,7 +209,7 @@ p {
 .button2 {
   background-color: #D2F4FF;
   border: 2.5px solid white;
-  display:block;
+  display: block;
   height: 38px;
   width: 38px;
   margin-bottom: 10px;
@@ -216,7 +219,7 @@ p {
 .button3 {
   background-color: #53815D;
   border: 2.5px solid white;
-  display:block;
+  display: block;
   height: 38px;
   width: 38px;
   margin-bottom: 10px;
@@ -226,7 +229,7 @@ p {
 .button4 {
   background-color: #DD3E3E;
   border: 2.5px solid white;
-  display:block;
+  display: block;
   height: 38px;
   width: 38px;
   border-radius: 50%;
@@ -266,10 +269,14 @@ p {
 
 /* Medium devices (tablets, 768px and up) */
 @media (min-width: 768px) {
-  .grid-container {  display: grid;
+  .grid-container {
+    display: grid;
     grid-template-columns: repeat(77, 1fr);
+    /* grid-template-columns: repeat(4, 27vh) 1fr 13.5vh; */
     grid-template-rows: repeat(45, 2.22222222vh);
     /* place-items: center; */
+    background: greenyellow;
+    padding: 2vh;
   }
 
   h1 {
@@ -286,20 +293,19 @@ p {
   h4 {
     font-size: 19px;
     line-height: 30.62px;
-}
+  }
 
   h5 {
     font-size: 17px;
     line-height: 30px;
-}
+  }
 
   .button-container {
     grid-column: 74 / 76;
     grid-row: 37 / 42;
-    display: grid;
-    margin-right: 30px;
+    /* margin-right: 30px; */
     justify-items: left;
-    align-items: left; 
+
   }
 
   .button1 {
@@ -332,26 +338,26 @@ p {
     width: 32px;
   }
 
-  .header-menu{
-    display: grid;
+  .header-menu {
+
     width: 100%;
     grid-column: 65 / 76;
     grid-row: 3 / 10;
     justify-items: right;
-    align-items: right;
+
   }
 
-  .branding {  
+  .branding {
     grid-column: 3 / 19;
     grid-row: 3 / 10;
     display: flex;
-   }
+  }
 
-   .logo {  
+  .logo {
     grid-column: 3 / 11;
     grid-row: 3 / 10;
-   }
-  
+  }
+
   .name {
     max-width: 100%;
     grid-column: 10 / 19;
@@ -363,23 +369,22 @@ p {
   .capstone-thumbnail {
     grid-column: 7 / 20;
     grid-row: 13 / 30;
-    display: grid;
-    justify-items: center;
-    align-items: center;  
-  }
-  
-  .kickboxing-thumbnail {
-    grid-column: 26 / 46;
-    grid-row: 5 / 16;
-    display: grid;
+
     justify-items: center;
     align-items: center;
   }
-  
+
+  .kickboxing-thumbnail {
+    grid-column: 26 / 46;
+    grid-row: 5 / 16;
+    justify-items: center;
+    align-items: center;
+  }
+
   .indigenous-thumbnail {
     grid-column: 5 / 24;
     grid-row: 31 / 44;
-    display: grid;
+
     justify-items: center;
     align-items: center;
   }
@@ -387,7 +392,7 @@ p {
   .gossamer-gin-thumbnail {
     grid-column: 30 / 46;
     grid-row: 33 / 45;
-    display: grid;
+   
     justify-items: center;
     align-items: center;
   }
@@ -395,7 +400,7 @@ p {
   .keyboard-thumbnail {
     grid-column: 52 / 69;
     grid-row: 31 / 44;
-    display: grid;
+
     justify-items: center;
     align-items: center;
   }
@@ -403,7 +408,7 @@ p {
   .baobao-thumbnail {
     grid-column: 52 / 71;
     grid-row: 8 / 20;
-    display: grid;
+
     justify-items: center;
     align-items: center;
   }
@@ -411,7 +416,7 @@ p {
   .pinkie-swear-thumbnail {
     grid-column: 54 / 73;
     grid-row: 21 / 31;
-    display: grid;
+ 
     justify-items: center;
     align-items: center;
   }
@@ -419,16 +424,17 @@ p {
   .butterly-thumbnail {
     grid-column: 29 / 42;
     grid-row: 18 / 33;
-    display: grid;
+
     justify-items: center;
     align-items: center;
   }
-  .profile-pic{
+
+  .profile-pic {
     grid-column: 10 / 40;
     grid-row: 11 / 32;
   }
 
-  .about-text{
+  .about-text {
     grid-column: 43 / 69;
     grid-row: 11 / 32;
   }
@@ -438,12 +444,19 @@ p {
 DEVICES
 (desktops, 1000px and up) */
 @media (min-width: 1000px) {
-  .grid-container {  display: grid;
+  .grid-container {
+    display: grid;
     grid-template-columns: repeat(77, 1fr);
-    grid-template-rows: repeat(45, 2.22222222vh);
-    /* place-items: center; */
-  
+    grid-template-rows: repeat(45, 2.06666666666vh);
+
+
+      /* place-items: center; */
+      padding: 3.5vh 3.5vh 3.5vh 3.5vh;
+    /* Top Right Bottom Left */
+
   }
+
+
   h1 {
     font-size: 45px;
     font-weight: 700;
@@ -456,60 +469,45 @@ DEVICES
   }
 
   .button-container {
-    grid-column: 74 / 78;
+    grid-column: 77 / 78;
     grid-row: 36 / 44;
-    display: grid;
     justify-items: center;
-    align-items: center; 
+    align-items: center;
+    background: orangered;
   }
 
-  .button1 {
-    border: 2.5px solid white;
-    height: 38px;
-    width: 38px;
-    margin-bottom: 10px;
-  }
-  
-  .button2 {
-    border: 2.5px solid white;
-    height: 38px;
-    width: 38px;
-    margin-bottom: 10px;
-  }
-  
-  .button3 {
-    border: 2.5px solid white;
-    height: 38px;
-    width: 38px;
-    margin-bottom: 10px;
-  }
-  
+  .button1,
+  .button2,
+  .button3,
   .button4 {
     border: 2.5px solid white;
-    height: 38px;
-    width: 38px;
+    width: 5vh;
+    height: 5vh;
+    margin-bottom: 10px;
   }
 
-  .header-menu{
+
+  .header-menu {
     max-width: 100%;
-    display: grid;
-    grid-column: 71 / 77;
+
+    grid-column: -1;
     grid-row: 3 / 10;
     justify-items: center;
-    align-items: right;
+
+    background: lightyellow;
   }
 
-  .branding {  
+  .branding {
     grid-column: 3 / 19;
     grid-row: 3 / 10;
     display: flex;
-   }
+  }
 
-   .logo {  
+  .logo {
     grid-column: 3 / 11;
     grid-row: 3 / 10;
-   }
-  
+  }
+
   .name {
     max-width: 100%;
     grid-column: 10 / 19;
@@ -521,23 +519,23 @@ DEVICES
   .capstone-thumbnail {
     grid-column: 7 / 18;
     grid-row: 13 / 27;
-    display: grid;
-    justify-items: center;
-    align-items: center;  
-  }
-  
-  .kickboxing-thumbnail {
-    grid-column: 24 / 42;
-    grid-row: 5 / 16;
-    display: grid;
+
     justify-items: center;
     align-items: center;
   }
-  
+
+  .kickboxing-thumbnail {
+    grid-column: 24 / 42;
+    grid-row: 5 / 16;
+
+    justify-items: center;
+    align-items: center;
+  }
+
   .indigenous-thumbnail {
     grid-column: 5 / 21;
     grid-row: 31 / 41;
-    display: grid;
+  
     justify-items: center;
     align-items: center;
   }
@@ -545,7 +543,7 @@ DEVICES
   .gossamer-gin-thumbnail {
     grid-column: 26 / 41;
     grid-row: 19 / 32;
-    display: grid;
+  
     justify-items: center;
     align-items: center;
   }
@@ -553,7 +551,7 @@ DEVICES
   .keyboard-thumbnail {
     grid-column: 29 / 42;
     grid-row: 36 / 41;
-    display: grid;
+
     justify-items: center;
     align-items: center;
   }
@@ -561,7 +559,7 @@ DEVICES
   .baobao-thumbnail {
     grid-column: 48 / 65;
     grid-row: 8 / 20;
-    display: grid;
+  
     justify-items: center;
     align-items: center;
   }
@@ -569,7 +567,7 @@ DEVICES
   .pinkie-swear-thumbnail {
     grid-column: 47 / 62;
     grid-row: 25 / 37;
-    display: grid;
+ 
     justify-items: center;
     align-items: center;
   }
@@ -577,17 +575,17 @@ DEVICES
   .butterly-thumbnail {
     grid-column: 67 / 76;
     grid-row: 21 / 32;
-    display: grid;
+
     justify-items: center;
     align-items: center;
   }
 
-  .profile-pic{
+  .profile-pic {
     grid-column: 13 / 43;
     grid-row: 11 / 32;
   }
 
-  .about-text{
+  .about-text {
     grid-column: 45 / 69;
     grid-row: 11 / 32;
   }
@@ -595,12 +593,7 @@ DEVICES
 
 /* X-Large devices (large desktops, 1200px and up)*/
 @media (min-width: 1269px) {
-  .grid-container {  display: grid;
-    grid-template-columns: repeat(77, 1fr);
-    grid-template-rows: repeat(45, 2.22222222vh);
-    /* place-items: center; */
-  
-  }
+
   h1 {
     font-size: 45px;
     font-weight: 700;
@@ -613,11 +606,11 @@ DEVICES
   }
 
   .button-container {
-    grid-column: 74 / 78;
+    grid-column: 77 / 78;
     grid-row: 36 / 44;
-    display: grid;
+
     justify-items: center;
-    align-items: center; 
+    align-items: center;
   }
 
   .button1 {
@@ -626,47 +619,46 @@ DEVICES
     width: 38px;
     margin-bottom: 10px;
   }
-  
+
   .button2 {
     border: 2.5px solid white;
     height: 38px;
     width: 38px;
     margin-bottom: 10px;
   }
-  
+
   .button3 {
     border: 2.5px solid white;
     height: 38px;
     width: 38px;
     margin-bottom: 10px;
   }
-  
+
   .button4 {
     border: 2.5px solid white;
     height: 38px;
     width: 38px;
   }
 
-  .header-menu{
+  .header-menu {
     max-width: 100%;
-    display: grid;
-    grid-column: 71 / 77;
+    grid-column: 74/78;
     grid-row: 3 / 10;
     justify-items: center;
-    align-items: right;
+
   }
 
-  .branding {  
+  .branding {
     grid-column: 3 / 19;
     grid-row: 3 / 10;
     display: flex;
-   }
+  }
 
-   .logo {  
+  .logo {
     grid-column: 3 / 11;
     grid-row: 3 / 10;
-   }
-  
+  }
+
   .name {
     max-width: 100%;
     grid-column: 10 / 19;
@@ -678,23 +670,23 @@ DEVICES
   .capstone-thumbnail {
     grid-column: 8 / 18;
     grid-row: 13 / 27;
-    display: grid;
-    justify-items: center;
-    align-items: center;  
-  }
-  
-  .kickboxing-thumbnail {
-    grid-column: 25 / 41;
-    grid-row: 5 / 14;
-    display: grid;
+
     justify-items: center;
     align-items: center;
   }
+
+  .kickboxing-thumbnail {
+    grid-column: 25 / 41;
+    grid-row: 5 / 14;
   
+    justify-items: center;
+    align-items: center;
+  }
+
   .indigenous-thumbnail {
     grid-column: 5 / 21;
     grid-row: 31 / 41;
-    display: grid;
+
     justify-items: center;
     align-items: center;
   }
@@ -702,7 +694,7 @@ DEVICES
   .gossamer-gin-thumbnail {
     grid-column: 28 / 41;
     grid-row: 20 / 32;
-    display: grid;
+  
     justify-items: center;
     align-items: center;
   }
@@ -710,7 +702,7 @@ DEVICES
   .keyboard-thumbnail {
     grid-column: 31 / 42;
     grid-row: 36 / 40;
-    display: grid;
+  
     justify-items: center;
     align-items: center;
   }
@@ -718,7 +710,7 @@ DEVICES
   .baobao-thumbnail {
     grid-column: 49 / 65;
     grid-row: 8 / 19;
-    display: grid;
+
     justify-items: center;
     align-items: center;
   }
@@ -726,7 +718,7 @@ DEVICES
   .pinkie-swear-thumbnail {
     grid-column: 48 / 61;
     grid-row: 26 / 36;
-    display: grid;
+
     justify-items: center;
     align-items: center;
   }
@@ -734,17 +726,17 @@ DEVICES
   .butterly-thumbnail {
     grid-column: 68 / 76;
     grid-row: 22 / 32;
-    display: grid;
+
     justify-items: center;
     align-items: center;
   }
 
-  .profile-pic{
+  .profile-pic {
     grid-column: 13 / 43;
     grid-row: 11 / 32;
   }
 
-  .about-text{
+  .about-text {
     grid-column: 45 / 69;
     grid-row: 11 / 32;
   }
