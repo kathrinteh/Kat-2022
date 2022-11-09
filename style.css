@@ -105,29 +105,20 @@ h2 {
   text-align: right;
 }
 
-h3 {
-  font-size: 35px;
-  font-weight: 500;
-  line-height: 1.3;
-  margin-bottom: 20px;
-}
-
-.bio {font-size: 2.225rem;  }
+.bio {font-size: 2.225rem;}
 
 h4 {
-  font-size: 24px;
+  font-size: 1.2rem;
   font-weight: 700;
-  line-height: 30.62px;
+  line-height: 1.3;
 }
-.bio-sub-heading {margin-bottom: 1rem;}
-h5 {
-  font-size: 20px;
-  font-weight: 400;
-  line-height: 31px;
-}
+.bio-sub-heading {margin-bottom: .75rem;}
+
 
 /* Hyperlink Styles */
-a {}
+a {
+  color: var(--primary-text-color);
+}
 
 a:hover,
 a:active {}
@@ -268,19 +259,21 @@ p {
     line-height: 1.3;
   }
 
-  h3 {
-    font-size: 22px;
-    line-height: 36px;
+  .awards {
+    font-size: 1.1rem;
+    line-height: 1.6;
   }
 
-  h4 {
-    font-size: 19px;
-    line-height: 30.62px;
+  .bio {
+    font-size: 1.5rem;
+    font-weight: 500;
+    line-height: 1.3;
+    margin-bottom: 2rem;
   }
 
-  h5 {
-    font-size: 17px;
-    line-height: 30px;
+  .about-text {
+    grid-column: 43 / 69;
+    grid-row: 11 / 32;
   }
 
   .header-menu-item {
@@ -301,10 +294,10 @@ p {
   .button2,
   .button3,
   .button4 {
-    border: 2.5px solid white;
+    border: 0.25vh solid white;
     width: 4vh;
     height: 4vh;
-    margin-bottom: 10px;
+    margin-bottom: 1vh;
   }
 
   .header-menu {
@@ -392,10 +385,6 @@ p {
     grid-row: 11 / 32;
   }
 
-  .about-text {
-    grid-column: 43 / 69;
-    grid-row: 11 / 32;
-  }
 }
 
 /* LARGE
@@ -418,11 +407,6 @@ DEVICES
     line-height: 1.15;
   }
 
-  h3 {
-    font-size: 28px;
-    line-height: 40px;
-  }
-
   .name {
     margin-left: 1rem;
   }
@@ -438,12 +422,9 @@ DEVICES
   .button2,
   .button3,
   .button4 {
-    border: 2.5px solid white;
     width: 4.5vh;
     height: 4.5vh;
-    margin-bottom: 10px;
   }
-
 
   .header-menu {
     max-width: 100%;
@@ -468,6 +449,10 @@ DEVICES
   .xlogo {
     width: 113px;
     height: 131px;
+  }
+  .about-text {
+    grid-column: 45 / 69;
+    grid-row: 11 / 32;
   }
 
   /* THUMBNAIL IMAGES */
@@ -515,11 +500,6 @@ DEVICES
     grid-column: 13 / 43;
     grid-row: 11 / 32;
   }
-
-  .about-text {
-    grid-column: 45 / 69;
-    grid-row: 11 / 32;
-  }
 }
 
 @media (min-width: 1200px) {
@@ -535,25 +515,17 @@ DEVICES
   .name {
     margin-left: 1.1rem;
   }
+  .bio {
+    font-size: 1.8rem;
+  }
 }
 
 
 /* X-Large devices (large desktops, 1200px and up)*/
 @media (min-width: 1390px) {
 
-  h3 {
-    font-size: 35px;
-    line-height: 44.66px;
-  }
-
-  .button1,
-  .button2,
-  .button3,
-  .button4 {
-    border: 2.5px solid white;
-    width: 4.5vh;
-    height: 4.5vh;
-    margin-bottom: 10px;
+  .bio {
+    font-size: 2.3rem;
   }
 
   .header-menu {
@@ -569,6 +541,11 @@ DEVICES
     display: flex;
   }
 
+  .about-text {
+    grid-column: 45 / 69;
+    grid-row: 11 / 32;
+  }
+
   /* THUMBNAIL IMAGES */
   .capstone-thumbnail {
     grid-column: 7 / 17;
@@ -577,7 +554,7 @@ DEVICES
 
   .kickboxing-thumbnail {
     grid-column: 24 / 40;
-    grid-row: 5 / 14;
+    grid-row: 4 / 13;
   }
 
   .indigenous-thumbnail {
@@ -587,12 +564,12 @@ DEVICES
 
   .gossamer-gin-thumbnail {
     grid-column: 27 / 40;
-    grid-row: 21 / 33;
+    grid-row: 20 / 32;
   }
 
   .keyboard-thumbnail {
     grid-column: 29 / 41;
-    grid-row: 36 / 43;
+    grid-row: 35 / 42;
   }
 
   .baobao-thumbnail {
@@ -614,12 +591,34 @@ DEVICES
     grid-column: 13 / 43;
     grid-row: 11 / 32;
   }
-
-  .about-text {
-    grid-column: 45 / 69;
-    grid-row: 11 / 32;
-  }
 }
 
 /* XX-Large devices (larger desktops, 1400px and up) */
-@media (min-width: 1400px) {}
+@media (min-width: 1900px) {
+  .xlogo {
+    width: 173px;
+    height: 194px;
+  }
+  h1 {
+    font-size: 3.2rem;
+    font-weight: 700;
+    line-height: 1.25;
+  }
+  h4 {
+    font-size: 1.4rem;
+  }
+  .awards {
+    font-size: 1.3rem;
+    line-height: 1.7;
+  }
+  .name {
+    margin-left: 1.2rem;
+  }
+  .header-menu-item {
+    font-size: 1.6rem;
+    line-height: 1.7;
+  }
+  .bio {
+    font-size: 2.9rem;
+  }
+}
