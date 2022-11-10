@@ -273,7 +273,7 @@ p {
 
   .about-text {
     grid-column: 43 / 69;
-    grid-row: 11 / 32;
+    grid-row: 9 / 30;
   }
 
   .header-menu-item {
@@ -382,7 +382,7 @@ p {
 
   .profile-pic {
     grid-column: 10 / 40;
-    grid-row: 11 / 32;
+    grid-row: 9 / 30;
   }
 
 }
@@ -452,54 +452,55 @@ DEVICES
   }
   .about-text {
     grid-column: 45 / 69;
-    grid-row: 11 / 32;
+    grid-row: 9 / 30;
   }
 
   /* THUMBNAIL IMAGES */
   .capstone-thumbnail {
-    grid-column: 6 / 18;
-    grid-row: 13 / 28;
+    grid-column: 5 / 19;
+    grid-row: 14 / 32;
   }
 
   .kickboxing-thumbnail {
-    grid-column: 24 / 42;
-    grid-row: 5 / 16;
+    grid-column: 27 / 48;
+    grid-row: 4 / 16;
   }
 
   .indigenous-thumbnail {
-    grid-column: 4 / 21;
-    grid-row: 31 / 42;
+    grid-column: 4 / 24;
+    grid-row: 32 / 46;
   }
 
   .gossamer-gin-thumbnail {
-    grid-column: 26 / 41;
-    grid-row: 21 / 34;
+    grid-column: 58 / 74;
+    grid-row: 22 / 29;
   }
 
   .keyboard-thumbnail {
-    grid-column: 28 / 42;
-    grid-row: 36 / 42;
+    grid-column: 55 / 72;
+    grid-row: 33 / 46;
   }
 
   .baobao-thumbnail {
-    grid-column: 48 / 65;
-    grid-row: 8 / 20;
+    grid-column: 57 / 76;
+    grid-row: 9 / 21;
   }
 
   .pinkie-swear-thumbnail {
-    grid-column: 47 / 62;
-    grid-row: 25 / 37;
+    grid-column: 31 / 47;
+    grid-row: 36 / 51;
   }
 
   .butterly-thumbnail {
-    grid-column: 67 / 76;
-    grid-row: 21 / 32;
+    grid-column: 30 / 42;
+    grid-row: 18 / 32;
   }
 
   .profile-pic {
-    grid-column: 13 / 43;
-    grid-row: 11 / 32;
+    grid-column: 10 / 40;
+    grid-row: 9 / 30;
   }
+ 
 }
 
 @media (min-width: 1200px) {
@@ -517,6 +518,47 @@ DEVICES
   }
   .bio {
     font-size: 1.8rem;
+  }
+
+   /* THUMBNAIL IMAGES */
+   .capstone-thumbnail {
+    grid-column: 7 / 17;
+    grid-row: 12 / 26;
+  }
+
+  .kickboxing-thumbnail {
+    grid-column: 24 / 40;
+    grid-row: 5 / 14;
+  }
+
+  .indigenous-thumbnail {
+    grid-column: 4 / 20;
+    grid-row: 31 / 41;
+  }
+
+  .gossamer-gin-thumbnail {
+    grid-column: 26 / 40;
+    grid-row: 20 / 33;
+  }
+
+  .keyboard-thumbnail {
+    grid-column: 28 / 41;
+    grid-row: 36 / 44;
+  }
+
+  .baobao-thumbnail {
+    grid-column: 48 / 64;
+    grid-row: 8 / 19;
+  }
+
+  .pinkie-swear-thumbnail {
+    grid-column: 47 / 60;
+    grid-row: 26 / 36;
+  }
+
+  .butterly-thumbnail {
+    grid-column: 67 / 77;
+    grid-row: 21 / 32;
   }
 }
 
@@ -539,11 +581,6 @@ DEVICES
     grid-column: 1 / 17;
     grid-row: 1 / 7;
     display: flex;
-  }
-
-  .about-text {
-    grid-column: 45 / 69;
-    grid-row: 11 / 32;
   }
 
   /* THUMBNAIL IMAGES */
@@ -585,11 +622,6 @@ DEVICES
   .butterly-thumbnail {
     grid-column: 67 / 76;
     grid-row: 22 / 32;
-  }
-
-  .profile-pic {
-    grid-column: 13 / 43;
-    grid-row: 11 / 32;
   }
 }
 
