@@ -159,7 +159,7 @@ p {
 .grid-container {
   display: grid;
   grid-template-columns: repeat(2, 1fr);
-  grid-template-rows: repeat(45, 2.22222222vh);
+  grid-template-rows: (2.22222222vh);
   padding: 3.5vh 3.5vh 3.5vh 3.5vh;
   /* place-items: center; */
 
