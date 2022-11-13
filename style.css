@@ -300,8 +300,8 @@ p {
     display:flex;
   }
   .xlogo {
-    width: 80px;
-    height: 100px;
+    width: 90px;
+    height: 110px;
   }
   h1 {
     margin-left: .6rem;
@@ -312,7 +312,7 @@ p {
   .header-menu-item {
     font-size: 1rem;
     font-weight: 600;
-    line-height: 1.9;
+    line-height: 1.7;
     text-align: right;
   }
   .header-menu {
