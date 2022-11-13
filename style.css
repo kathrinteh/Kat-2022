@@ -158,8 +158,9 @@ p {
 
 .grid-container {
   display: grid;
-  grid-template-columns: 1fr;
+  grid-template-columns: repeat(2, 1fr);
   grid-template-rows: repeat(45, 2.22222222vh);
+  padding: 3.5vh 3.5vh 3.5vh 3.5vh;
   /* place-items: center; */
 
 }
@@ -253,7 +254,6 @@ p {
   padding: 1rem;
   display: flex;
   flex-direction: column;
-  position:sticky;
 }
 
 .project-navigation {
@@ -290,7 +290,90 @@ p {
 */
 
 /* Small devices (landscape phones, 576px and up) */
-@media (min-width: 576px) {}
+@media (min-width: 376px) {
+  .button-container {
+    display:none;
+  }
+
+  .branding { 
+    grid-column: 1 / 2;
+    grid-row: 1 / 1;
+    display:flex;
+  }
+  .name {
+    margin-left: .6rem;
+  }
+  .header-menu-item {
+    font-size: 1.2rem;
+    font-weight: 500;
+    line-height: 1.5;
+    text-align: right;
+  }
+  .header-menu {
+    max-width: 100%;
+    grid-column: 3 / 4;
+    grid-row: 1 / 7;
+    justify-items: center;
+  }
+
+  /* THUMBNAIL IMAGES */
+  .capstone-thumbnail {
+    grid-column: 1 / 2;
+    grid-row: 6 / 18;
+    justify-items: center;
+    align-items: center;
+  }
+
+  .kickboxing-thumbnail {
+    grid-column: 1 / 2;
+    grid-row: 6 / 18;
+    justify-items: center;
+    align-items: center;
+  }
+
+  .indigenous-thumbnail {
+    grid-column: 1 / 2;
+    grid-row: 6 / 18;
+    justify-items: center;
+    align-items: center;
+  }
+
+  .gossamer-gin-thumbnail {
+    grid-column: 1 / 2;
+    grid-row: 6 / 18;
+    justify-items: center;
+    align-items: center;
+  }
+
+  .keyboard-thumbnail {
+    grid-column: 1 / 2;
+    grid-row: 6 / 18;
+    justify-items: center;
+    align-items: center;
+  }
+
+  .baobao-thumbnail {
+    grid-column: 1 / 2;
+    grid-row: 6 / 18;
+    justify-items: center;
+    align-items: center;
+  }
+
+  .pinkie-swear-thumbnail {
+    grid-column: 1 / 2;
+    grid-row: 6 / 18;
+    justify-items: center;
+    align-items: center;
+  }
+
+  .butterly-thumbnail {
+    grid-column: 1 / 2;
+    grid-row: 6 / 18;
+    justify-items: center;
+    align-items: center;
+  }
+  
+}
 
 /* Medium devices (tablets, 768px and up) */
 @media (min-width: 768px) {
@@ -462,8 +545,6 @@ DEVICES
   .button-container {
     grid-column: 77 / 78;
     grid-row: 36 / 44;
-    justify-items: center;
-    align-items: center;
   }
 
   .button1,
