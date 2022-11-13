@@ -290,7 +290,7 @@ p {
 */
 
 /* Small devices (landscape phones, 576px and up) */
-@media (min-width: 376px) {
+@media (min-width: 320px) {
   .button-container {
     display:none;
   }
