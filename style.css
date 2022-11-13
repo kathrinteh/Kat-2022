@@ -430,6 +430,7 @@ p {
   }
 
   .button-container {
+    display: block;
     grid-column: 77 / 78;
     grid-row: 37 / 44;
     justify-items: center;
