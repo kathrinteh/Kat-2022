@@ -98,17 +98,17 @@ h1 {
 }
 /*project name font*/
 h2 {
-  font-size: 3rem;
+  font-size: 2.5rem;
   font-weight: 500;
-  line-height: 1.1;
-  margin-bottom: .75rem;
+  line-height: 1;
+  margin-bottom: .5rem;
 }
 /*project page secondary text under title*/
 h3 {
   font-size: 1.2rem;
   font-weight: 500;
-  line-height: 1.5;
-  margin-bottom: .5rem;
+  line-height: 1.3;
+  margin-bottom: .3rem;
 }
 
 .bio {font-size: 2.225rem;}
@@ -123,10 +123,10 @@ h4 {
 /*awards on project page*/
 h5 {
   font-family: 'Space Mono', monospace;
-  font-size: 1.1rem;
+  font-size: .9rem;
   font-weight: 400;
   line-height: 1.2;
-  margin-bottom: .75rem;
+  margin-bottom: .5rem;
 }
 
 /* Hyperlink Styles */
@@ -139,7 +139,7 @@ a:active {}
 
 
 p {
-  font-size: 1rem;
+  font-size: .9rem;
   font-weight: 500;
   line-height: 1.2;
 }
@@ -239,42 +239,12 @@ p {
 */
 
 
-.project-wrapper {
-  grid-column: 10 / 70;
-  grid-row: 9 / 200;
-  padding: 1rem;
-  display: flex;
-  flex-direction: row;
-  justify-content: space-between;
-}
-
-/* Sidebar */
-.project-aside {
-  width: 30%;
-  padding: 1rem;
-  display: flex;
-  flex-direction: column;
-}
-
-.project-navigation {
-  display: flex;
-  flex-direction: row;
-  flex: 1;
-  align-items: flex-end;
-}
 
 .arrow {
   padding-right: 1rem;
 }
 
-/* Main Project Image Area */
-.project-images {
-  width: 100%;
-  padding: 1rem;
-}
-.project-pic {
-  margin-bottom: 3rem;
-}
+
 
 /*
 
@@ -344,6 +314,38 @@ p {
     grid-column: 4 / 5;
     grid-row: 1 / 7;
     justify-items: center;
+  }
+
+  .project-wrapper {
+    grid-column: 1 / 5;
+    grid-row: 3 / 20;
+    display: grid;
+  }
+  
+  /* Sidebar */
+  .project-aside {
+    grid-column: 1 / 5;
+    grid-row: 3 / 5;
+    padding-bottom: 2vh;
+  }
+  .project-navigation {
+    display: flex;
+    flex-direction: row;
+    flex: 1;
+    align-items: flex-end;
+  }
+  .project-info {
+    padding-top: 2vh;
+    padding-bottom: 2vh;
+  }
+  
+  /* Main Project Image Area */
+  .project-images {
+    grid-column: 1 / 5;
+    grid-row: 6 / 35;
+  }
+  .project-pic {
+    margin-bottom: 3vh;
   }
 
   /* THUMBNAIL IMAGES */
@@ -627,6 +629,69 @@ DEVICES
   .about-text {
     grid-column: 45 / 69;
     grid-row: 9 / 30;
+  }
+
+  .project-wrapper {
+    grid-column: 10 / 70;
+    grid-row: 9 / 200;
+    padding: 1rem;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+  }
+  
+  /* Sidebar */
+  .project-aside {
+    width: 30%;
+    padding: 1rem;
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .project-navigation {
+    display: flex;
+    flex-direction: row;
+    flex: 1;
+    align-items: flex-end;
+  }
+  
+  .arrow {
+    padding-right: 1rem;
+  }
+  /*project name font*/
+h2 {
+  font-size: 3rem;
+  font-weight: 500;
+  line-height: 1.1;
+  margin-bottom: .75rem;
+}
+/*project page secondary text under title*/
+h3 {
+  font-size: 1.2rem;
+  font-weight: 500;
+  line-height: 1.5;
+  margin-bottom: .5rem;
+}
+/*awards on project page*/
+h5 {
+  font-size: 1.1rem;
+  font-weight: 400;
+  line-height: 1.2;
+  margin-bottom: .75rem;
+}
+p {
+  font-size: 1rem;
+  font-weight: 500;
+  line-height: 1.2;
+}
+  
+  /* Main Project Image Area */
+  .project-images {
+    width: 100%;
+    padding: 1rem;
+  }
+  .project-pic {
+    margin-bottom: 3rem;
   }
 
   /* THUMBNAIL IMAGES */
