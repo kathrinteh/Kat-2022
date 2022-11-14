@@ -60,15 +60,21 @@
     <li class="header-menu-item"><a href="contact.html">Contact</a></li>
   </ul>
 
-  <a class="capstone-thumbnail"><img src="images/fillerimage.jpg" alt="Filler Image"></a>
-  <a class="kickboxing-thumbnail"><img src="images/the-girls-kickboxing-club.jpg" alt="The Girl's Kickboxing Club"></a>
-  <a class="indigenous-thumbnail"><img src="images/hello-my-name-is.jpg" alt="Indigineous Names Campaign"></a>
-  <a class="gossamer-gin-thumbnail"><img src="images/gossamer-gin.jpg" alt="Gossamer Gin Packaging"></a>
-  <a class="keyboard-thumbnail"><img src="images/keyboard.jpg" alt="Keyboard"></a>
-  <a class="baobao-thumbnail"><img src="images/baobao-menus.jpg" alt="Baobao Dumplings Menus"></a>
-  <a href="pinkieswear.html" class="pinkie-swear-thumbnail"><img src="images/ps-ice-cream.jpg"
+  <a id="capstone" class="capstone-thumbnail"><img src="images/fillerimage.jpg" alt="Filler Image"></a>
+  <a id="kickboxing" class="kickboxing-thumbnail"><img src="images/the-girls-kickboxing-club.jpg" alt="The Girl's Kickboxing Club"></a>
+  <a id="indigeonous" class="indigenous-thumbnail"><img src="images/hello-my-name-is.jpg" alt="Indigineous Names Campaign"></a>
+  <a id="gossamer" class="gossamer-gin-thumbnail"><img src="images/gossamer-gin.jpg" alt="Gossamer Gin Packaging"></a>
+  <a id="keyboard" class="keyboard-thumbnail"><img src="images/keyboard.jpg" alt="Keyboard"></a>
+  <a id="baobao" class="baobao-thumbnail"><img src="images/baobao-menus.jpg" alt="Baobao Dumplings Menus"></a>
+  <a id="pinkieswear" href="pinkieswear.html" class="pinkie-swear-thumbnail"><img src="images/ps-ice-cream.jpg"
       alt="P.S Pinkie Swear Ice Cream Packaging"></a>
-  <a class="butterly-thumbnail"><img src="images/butterly-menu.jpg" alt="Butterly Donuts Menu"></a>
+  <a id="butterly" class="butterly-thumbnail"><img src="images/butterly-menu.jpg" alt="Butterly Donuts Menu"></a>
+
+
+  <div id="smiley1-overlay"><img src="overlays/smiley-face-overlay.png"></div>
+  <div id="arrow2-overlay"><img src="overlays/arrow-2-overlay.png"></div>
+  <div id="pinkieswear-overlay"><img src="overlays/pinkie-swear-overlay.png"></div>
+
 
   <ul class="button-container">
     <li><a class="button1" id="btn" onclick="changeBackground()"> </a></li>
@@ -139,6 +145,31 @@
       $('#part1, #part2, #part3, #part4, #part5, #part6').css({
         fill: "#FFF5F5"
       });
+    });
+    /* this is all the overlay hover shit*/
+    $("#pinkieswear").hover(function () {
+    $("#smiley1-overlay").toggle();
+    $("#arrow2-overlay").toggle();
+    $("#pinkieswear-overlay").toggle();
+    });
+
+    $("#smiley1-overlay").hover(function () {
+      $("#smiley1-overlay").show();
+    });
+    $("#smiley1-overlay").mouseout(function () {
+    $("#smiley1-overlay").hide();
+    });
+    $("#arrow2-overlay").hover(function () {
+      $("#arrow2-overlay").show();
+    });
+    $("#arrow2-overlay").mouseout(function () {
+    $("#arrow2-overlay").hide();
+    });
+    $("#pinkieswear-overlay").hover(function () {
+      $("#pinkieswear-overlay").show();
+    });
+    $("#pinkieswear-overlay").mouseout(function () {
+    $("#pinkieswear-overlay").hide();
     });
   </script>
 </body>

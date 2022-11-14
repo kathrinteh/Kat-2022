@@ -829,6 +829,23 @@ p {
     grid-row: 10 / 200;
   }
 
+   /* OVERLAY IMAGES */
+   #smiley1-overlay {
+    grid-column: 20 / 24;
+    grid-row: 20 / 26;
+    display: none;
+   }
+   #arrow2-overlay {
+    grid-column: 56 / 66;
+    grid-row: 37 / 39;
+    display: none;
+   }
+   #pinkieswear-overlay {
+    grid-column: 42 / 52;
+    grid-row: 23 / 30;
+    display: none;
+   }
+
    /* THUMBNAIL IMAGES */
    .capstone-thumbnail {
     grid-column: 7 / 17;
