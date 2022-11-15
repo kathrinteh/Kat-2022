@@ -38,6 +38,11 @@ html {
   box-sizing: inherit;
 }
 
+.pinkie-swear-thumbnail-image:hover {
+  background-color: rgba(255, 255, 255, 0.66);
+  background-blend-mode: lighten;
+}
+
 /* Use variable for to easily change your theme's colour scheme and typography.
 
 ██    ██  █████  ██████  ██  █████  ██████  ██      ███████ ███████ 
@@ -176,9 +181,36 @@ p {
 */
 
 .pinkie-swear-thumbnail:hover {
-  background-color: rgba(255, 255, 255, 0.66);
-  background-blend-mode: lighten;
+  /* color: rgba(255, 255, 255, 0.66); */
+  /* filter: brightness(50%); */
+  /* filter: opacity(66%); */
 }
+
+
+
+
+.overlay {
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  opacity: 0;
+  transition: 0.75s ease;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  padding: 1em;
+  background: rgba(255, 255, 255, 0.66);
+}
+
+pinkie-swear-thumbnail:hover .overlay {
+  opacity: 0.9;
+}
+
 
 /* Global Footer
 
@@ -334,7 +366,7 @@ p {
   .project-navigation {
     display: flex;
     flex-direction: row;
-    flex: 1;
+
     align-items: flex-end;
   }
   .project-info {
@@ -408,10 +440,7 @@ p {
     align-items: center;
     padding-bottom: 5vh;
   }
-  .pinkie-swear-thumbnail:hover {
-    background-color: rgba(255, 255, 255, 0.66);
-    background-blend-mode: lighten;
-  }
+
 
   .baobao-thumbnail {
     grid-column: 1 / 4;
@@ -532,7 +561,7 @@ p {
   .project-navigation {
     display: flex;
     flex-direction: row;
-    flex: 1;
+
     align-items: flex-end;
   }
   
@@ -721,7 +750,7 @@ DEVICES
   .project-navigation {
     display: flex;
     flex-direction: row;
-    flex: 1;
+
     align-items: flex-end;
   }
   
