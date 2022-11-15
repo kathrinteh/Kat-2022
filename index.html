@@ -11,8 +11,11 @@
   <meta property="og:image" content="screenshot.jpg">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/meyer-reset/2.0/reset.min.css">
   <script src="https://kit.fontawesome.com/d300c2ea15.js" crossorigin="anonymous"></script>
-  <link rel="stylesheet" href="./style.css">
+  <link rel="stylesheet" href="./style.css" type="text/css">
+  <link rel="stylesheet" href="./scripts.js" type="text/javascript">
   <script src="//ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+  <!-- <script src="https://code.jquery.com/jquery-3.6.1.min.js"
+    integrity="sha256-o88AwQnZB+VDvE9tvIXrMQaPlFFSUTR+nldQm1LuPXQ=" crossorigin="anonymous"></script> -->
 </head>
 
 
@@ -61,8 +64,10 @@
   </ul>
 
   <a id="capstone" class="capstone-thumbnail"><img src="images/fillerimage.jpg" alt="Filler Image"></a>
-  <a id="kickboxing" class="kickboxing-thumbnail"><img src="images/the-girls-kickboxing-club.jpg" alt="The Girl's Kickboxing Club"></a>
-  <a id="indigeonous" class="indigenous-thumbnail"><img src="images/hello-my-name-is.jpg" alt="Indigineous Names Campaign"></a>
+  <a id="kickboxing" class="kickboxing-thumbnail"><img src="images/the-girls-kickboxing-club.jpg"
+      alt="The Girl's Kickboxing Club"></a>
+  <a id="indigeonous" class="indigenous-thumbnail"><img src="images/hello-my-name-is.jpg"
+      alt="Indigineous Names Campaign"></a>
   <a id="gossamer" class="gossamer-gin-thumbnail"><img src="images/gossamer-gin.jpg" alt="Gossamer Gin Packaging"></a>
   <a id="keyboard" class="keyboard-thumbnail"><img src="images/keyboard.jpg" alt="Keyboard"></a>
   <a id="baobao" class="baobao-thumbnail"><img src="images/baobao-menus.jpg" alt="Baobao Dumplings Menus"></a>
@@ -71,9 +76,9 @@
   <a id="butterly" class="butterly-thumbnail"><img src="images/butterly-menu.jpg" alt="Butterly Donuts Menu"></a>
 
 
-  <div id="smiley1-overlay"><img src="overlays/smiley-face-overlay.png"></div>
-  <div id="arrow2-overlay"><img src="overlays/arrow-2-overlay.png"></div>
-  <div id="pinkieswear-overlay"><img src="overlays/pinkie-swear-overlay.png"></div>
+  <div id="smiley1-overlay"><img src="overlays/smiley-face-overlay.png" alt=""></div>
+  <div id="arrow2-overlay"><img src="overlays/arrow-2-overlay.png" alt=""></div>
+  <div id="pinkieswear-overlay"><img src="overlays/pinkie-swear-overlay.png" alt=""></div>
 
 
   <ul class="button-container">
@@ -86,92 +91,7 @@
 
 
 
-  <script>
-    /* this is all the background change stuff when you click the buttons*/
-    function changeBackground() {
-      document.querySelector('body').style.backgroundColor = '#FFF5F5';
-      document.querySelector('body').style.color = '#DD3E3E';
-      var elements = document.querySelectorAll("a");
-      [].slice.call(elements).forEach(function (elem) {
-        elem.style.color = "#DD3E3E";
-      });
-    }
 
-    function changeBackground2() {
-      document.querySelector('body').style.backgroundColor = '#D2F4FF';
-      document.querySelector('body').style.color = '#53815D';
-      var elements = document.querySelectorAll("a");
-      [].slice.call(elements).forEach(function (elem) {
-        elem.style.color = "#53815D";
-      });
-    }
-
-    function changeBackground3() {
-      document.querySelector('body').style.backgroundColor = '#53815D';
-      document.querySelector('body').style.color = '#D2F4FF';
-      var elements = document.querySelectorAll("a");
-      [].slice.call(elements).forEach(function (elem) {
-        elem.style.color = "#D2F4FF";
-      });
-    }
-
-    function changeBackground4() {
-      document.querySelector('body').style.backgroundColor = '#DD3E3E';
-      document.querySelector('body').style.color = '#FFF5F5';
-      var elements = document.querySelectorAll("a");
-      [].slice.call(elements).forEach(function (elem) {
-        elem.style.color = "#FFF5F5";
-      });
-    }
-    $('#btn').on("click", function () {
-      $('#part1, #part2, #part3, #part4, #part5, #part6').css({
-        fill: "#DD3E3E"
-      });
-    });
-
-    $('#btnblue').on("click", function () {
-      $('#part1, #part2, #part3, #part4, #part5, #part6').css({
-        fill: "#53815D"
-      });
-    });
-
-    $('#btngreen').on("click", function () {
-      $('#part1, #part2, #part3, #part4, #part5, #part6').css({
-        fill: "#D2F4FF"
-      });
-    });
-
-    $('#btnred').on("click", function () {
-      $('#part1, #part2, #part3, #part4, #part5, #part6').css({
-        fill: "#FFF5F5"
-      });
-    });
-    /* this is all the overlay hover shit*/
-    $("#pinkieswear").hover(function () {
-    $("#smiley1-overlay").toggle();
-    $("#arrow2-overlay").toggle();
-    $("#pinkieswear-overlay").toggle();
-    });
-
-    $("#smiley1-overlay").hover(function () {
-      $("#smiley1-overlay").show();
-    });
-    $("#smiley1-overlay").mouseout(function () {
-    $("#smiley1-overlay").hide();
-    });
-    $("#arrow2-overlay").hover(function () {
-      $("#arrow2-overlay").show();
-    });
-    $("#arrow2-overlay").mouseout(function () {
-    $("#arrow2-overlay").hide();
-    });
-    $("#pinkieswear-overlay").hover(function () {
-      $("#pinkieswear-overlay").show();
-    });
-    $("#pinkieswear-overlay").mouseout(function () {
-    $("#pinkieswear-overlay").hide();
-    });
-  </script>
 </body>
 
 </html>
