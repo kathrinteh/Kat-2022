@@ -19,7 +19,13 @@ header {
   border: 2px solid var(--primary-color);
 }
 
+a {color: yellow;}
+a:hover {green;}
+.cls-1 {fill: blue;}
 
-#part1, #part2, #part3, #part4, #part5, #part6 {
-    fill: "#D2F4FF";
+#smiley1-overlay {background: url(../overlays/smiley-face-overlay.png);
+  background-repeat: no-repeat;
+  background-size: contain;
+  width: 80px;
+  height: 102px;
 }

@@ -910,6 +910,8 @@ p {
     grid-column: 20 / 24;
     grid-row: 20 / 26;
     display: none;
+    width: 80px;
+    height: 102px;
     z-index: 20;
    }
    #arrow2-overlay {

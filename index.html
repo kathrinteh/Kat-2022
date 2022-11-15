@@ -13,7 +13,7 @@
   <script src="https://kit.fontawesome.com/d300c2ea15.js" crossorigin="anonymous"></script>
   <link rel="stylesheet" href="style.css" type="text/css">
   <link rel="stylesheet" id="switcher-id" href="">
-  <script src="//ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.1/jquery.min.js"></script>
 </head>
 
 
@@ -24,9 +24,10 @@
         height="154px">
         <defs>
           <style>
-            .cls-1 {
-              fill: #dd3e3e;
+            <!-- .cls-1 {
+            fill: #dd3e3e;
             }
+            -->
           </style>
         </defs>
         <path id="part1" class="cls-1"
@@ -84,24 +85,28 @@
   <a id="butterly" class="butterly-thumbnail"><img src="images/butterly-menu.jpg" alt="Butterly Donuts Menu"></a>
 
 
-  <div id="smiley1-overlay"><img src="overlays/smiley-face-overlay.png" alt=""></div>
+  <div id="smiley1-overlay">
+
+    <!-- <img src="overlays/smiley-face-overlay.png" alt=""> -->
+
+  </div>
   <div id="arrow2-overlay"><img src="overlays/arrow-2-overlay.png" alt=""></div>
   <div id="pinkieswear-overlay"><img src="overlays/pinkie-swear-overlay.png" alt=""></div>
 
 
-  <ul class="button-container">
+  <!-- <ul class="button-container">
     <li><a class="button1" id="btn" onclick="changeBackground()"> </a></li>
     <li><a class="button2" id="btnblue" onclick="changeBackground2()"> </a></li>
     <li><a class="button3" id="btngreen" onclick="changeBackground3()"> </a></li>
     <li><a class="button4" id="btnred" onclick="changeBackground4()"> </a></li>
-  </ul>
+  </ul> -->
 
-  <div class="theme-switches">
+  <div class="theme-switches button-container">
     <div data-theme="light" class="switch" id="switch-1"></div>
     <div data-theme="sky" class="switch" id="switch-2"></div>
     <div data-theme="purple" class="switch" id="switch-3"></div>
     <div data-theme="dark" class="switch" id="switch-4"></div>
-</div>
+  </div>
 
   <script>
     /* this is all the background change stuff when you click the buttons*/
