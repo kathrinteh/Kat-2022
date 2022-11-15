@@ -39,10 +39,10 @@ html {
 }
 
 
-.pinkie-swear-thumbnail-image:hover {
+/* .pinkie-swear-thumbnail-image:hover {
   background-color: rgba(255, 255, 255, 0.66);
   background-blend-mode: lighten;
-}
+} */
 
 /* Use variable for to easily change your theme's colour scheme and typography.
 
@@ -73,11 +73,12 @@ html {
 }
 
 .switch {
-  border: 2px solid black;
-  border-radius: 50px;
-  height: 30px;
-  width: 30px;
-  margin: 10px;
+  border: 2.5px solid white;
+  display: block;
+  height: 38px;
+  width: 38px;
+  margin-bottom: 10px;
+  border-radius: 50%;
   cursor: pointer;
 }
 
@@ -229,14 +230,14 @@ p {
 
 
 
-.pinkie-swear-thumbnail {
+/* .pinkie-swear-thumbnail {
   width: 200px;
   height: 146px;
-  position: relative; /* Required to contain overlay size */
+  position: relative;  (Required to contain overlay size)
+} 
 
-}
 
-.overlay {
+ .overlay {
   position: absolute;
   top: 0;
   right: 0;
@@ -249,7 +250,7 @@ p {
 
 .pinkie-swear-thumbnail:hover .overlay {
   opacity: 0;
-}
+} */
 
 
 /* Global Footer
@@ -263,7 +264,7 @@ p {
 */
 
 
-.button1 {
+/* .button1 {
   background-color: #FFF5F5;
   border: 2.5px solid white;
   display: block;
@@ -300,7 +301,7 @@ p {
   height: 38px;
   width: 38px;
   border-radius: 50%;
-}
+} */
 
 
 /* Project Page 
@@ -550,10 +551,7 @@ p {
     align-items: center;
   }
 
-  .button1,
-  .button2,
-  .button3,
-  .button4 {
+  .switch {
     border: 0.25vh solid white;
     width: 4vh;
     height: 4vh;
@@ -738,10 +736,7 @@ DEVICES
     grid-row: 36 / 44;
   }
 
-  .button1,
-  .button2,
-  .button3,
-  .button4 {
+  .switch {
     width: 4.5vh;
     height: 4.5vh;
   }

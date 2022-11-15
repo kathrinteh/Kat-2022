@@ -20,7 +20,7 @@ header {
 }
 
 a {color: yellow;}
-a:hover {green;}
+
 .cls-1 {fill: blue;}
 
 #smiley1-overlay {background: url(../overlays/smiley-face-overlay.png);
