@@ -1,14 +1,14 @@
 :root {
-  --back-color: #eee;
-  --primary-color: #000000;
-  --header-back: #5d5d5d;
-  --header-text: #eee;
+  --back-color: #E3F8FF;
+  --primary-color: #53815D;
+  --header-back: #1a1d24;
+  --header-text: #53815D;
 }
+
 body {
   background-color: var(--back-color);
   color: var(--primary-color);
 }
-
 header {
   background-color: var(--header-back);
   color: var(--header-text);
@@ -17,3 +17,7 @@ header {
 .box img {
   border: 2px solid var(--primary-color);
 }
+
+a {color: var(--primary-color)}
+
+.cls-1 {fill: var(--primary-color)}

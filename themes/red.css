@@ -1,8 +1,8 @@
 :root {
-  --back-color: #c3dafe;
-  --primary-color: #3c366b;
+  --back-color: #DD3E3E;
+  --primary-color: #FFF5F5;
   --header-back: #5f718d;
-  --header-text: #eee;
+  --header-text: #FFF5F5;
 }
 
 body {
@@ -19,5 +19,5 @@ header {
   border: 2px solid var(--primary-color);
 }
 
-
-.cls-1 {fill: greenyellow;}
+a {color: var(--primary-color)}
+.cls-1 {fill: var(--primary-color)}

@@ -2,7 +2,7 @@ let switches = document.getElementsByClassName('switch');
 let style = localStorage.getItem('style');
 
 if (style == null) {
-  setTheme('light');
+  setTheme('pearl');
 } else {
   setTheme(style);
 }
@@ -15,14 +15,14 @@ for (let i of switches) {
 }
 
 function setTheme(theme) {
-  if (theme == 'light') {
-    document.getElementById('switcher-id').href = './themes/light.css';
-  } else if (theme == 'sky') {
-    document.getElementById('switcher-id').href = './themes/sky.css';
-  } else if (theme == 'purple') {
-    document.getElementById('switcher-id').href = './themes/purple.css';
-  } else if (theme == 'dark') {
-    document.getElementById('switcher-id').href = './themes/dark.css';
+  if (theme == 'pearl') {
+    document.getElementById('switcher-id').href = './themes/pearl.css';
+  } else if (theme == 'red') {
+    document.getElementById('switcher-id').href = './themes/red.css';
+  } else if (theme == 'green') {
+    document.getElementById('switcher-id').href = './themes/green.css';
+  } else if (theme == 'blue') {
+    document.getElementById('switcher-id').href = './themes/blue.css';
   }
   localStorage.setItem('style', theme);
 }

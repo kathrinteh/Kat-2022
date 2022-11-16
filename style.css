@@ -58,10 +58,10 @@ html {
   --primary-text-color: #DD3E3E;
   --body-typeface: 'Space Grotesk', sans-serif;
   --background-color: #FFF5F5;
-  --light: #ffffff;
-  --sky: #7f9cf5;
-  --purple: #97266d;
-  --dark: #81899b;  
+  --pearl: #FFF5F5;
+  --red: #DD3E3E;
+  --green: #53815D;
+  --blue: #E3F8FF;  
 }
 
 /* Theme Switches */
@@ -83,21 +83,21 @@ html {
 }
 
 .switch:hover {
-  transform: scale(1.2);
+  transform: scale(1.1);
   transition: 0.3s ease-in-out;
 }
 
 #switch-1 {
-  background-color: var(--light);
+  background-color: var(--pearl);
 }
 #switch-2 {
-  background-color: var(--sky);
+  background-color: var(--red);
 }
 #switch-3 {
-  background-color: var(--purple);
+  background-color: var(--green);
 }
 #switch-4 {
-  background-color: var(--dark);
+  background-color: var(--blue);
 }
 
 
@@ -394,8 +394,9 @@ p {
 
   .project-wrapper {
     grid-column: 1 / 5;
-    grid-row: 3 / 20;
+    grid-row: 8 / 20;
     display: grid;
+    margin-top: 2rem;
   }
   
   /* Sidebar */
@@ -504,7 +505,7 @@ p {
     display: grid;
     grid-template-columns: repeat(77, 1fr);
     grid-template-rows: repeat(45, 2.06666666666vh);
-    padding: 3.5vh 3.5vh 3.5vh 3.5vh;
+    padding: 2rem;
   }
 
   h1 {
@@ -552,9 +553,9 @@ p {
   }
 
   .switch {
-    border: 0.25vh solid white;
-    width: 4vh;
-    height: 4vh;
+    border: 0.1rem solid white;
+    width: 2rem;
+    height: 2rem;
     margin-bottom: 1vh;
   }
 
@@ -567,7 +568,7 @@ p {
 
   .branding {
     grid-column: 1 / 17;
-    grid-row: 1 / 7;
+    grid-row: 1 / 15;
     display: flex;
   }
 
@@ -716,7 +717,7 @@ DEVICES
     grid-template-columns: repeat(77, 1fr);
     grid-template-rows: repeat(45, 2.06666666666vh);
 
-      padding: 3.5vh 3.5vh 3.5vh 3.5vh;
+      padding: 2.3rem;
     /* Top Right Bottom Left */
 
   }
@@ -737,8 +738,9 @@ DEVICES
   }
 
   .switch {
-    width: 4.5vh;
-    height: 4.5vh;
+    width: 2.6rem;
+    height: 2.6rem;
+    border: 0.15rem solid white;
   }
 
   .header-menu {
@@ -757,7 +759,7 @@ DEVICES
 
   .branding {
     grid-column: 1 / 17;
-    grid-row: 1 / 7;
+    grid-row: 1 / 15;
     display: flex;
   }
 
@@ -877,6 +879,9 @@ p {
 }
 
 @media (min-width: 1200px) {
+  .grid-container {
+    padding: 2rem;
+  }
   .xlogo {
     width: 133px;
     height: 154px;

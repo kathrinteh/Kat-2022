@@ -8,6 +8,7 @@
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/meyer-reset/2.0/reset.min.css">
   <script src="https://kit.fontawesome.com/d300c2ea15.js" crossorigin="anonymous"></script>
   <link rel="stylesheet" href="./style.css">
+  <link rel="stylesheet" id="switcher-id" href="">
   <script src="//ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
 </head>
 
@@ -18,9 +19,9 @@
         viewBox="0 0 143.68 165.84" width="133px" height="154px">
         <defs>
           <style>
-            .cls-1 {
+            <!-- .cls-1 {
               fill: #dd3e3e;
-            }
+            } -->
           </style>
         </defs>
         <path id="part1" class="cls-1"
@@ -78,73 +79,13 @@
     </ul>
   </div>
 
-  <ul class="button-container">
-    <li><a class="button1" id="btn" onclick="changeBackground()"> </a></li>
-    <li><a class="button2" id="btnblue" onclick="changeBackground2()"> </a></li>
-    <li><a class="button3" id="btngreen" onclick="changeBackground3()"> </a></li>
-    <li><a class="button4" id="btnred" onclick="changeBackground4()"> </a></li>
-  </ul>
+  <div class="theme-switches button-container">
+    <div data-theme="pearl" class="switch" id="switch-1"></div>
+    <div data-theme="red" class="switch" id="switch-2"></div>
+    <div data-theme="green" class="switch" id="switch-3"></div>
+    <div data-theme="blue" class="switch" id="switch-4"></div>
+  </div>
 
-<script>
-  /* this is all the background change stuff when you click the buttons*/
-  function changeBackground() {
-      document.querySelector('body').style.backgroundColor = '#FFF5F5';
-      document.querySelector('body').style.color = '#DD3E3E';
-      var elements = document.querySelectorAll("a");
-      [].slice.call(elements).forEach(function (elem) {
-        elem.style.color = "#DD3E3E";
-      });
-    }
-
-    function changeBackground2() {
-      document.querySelector('body').style.backgroundColor = '#D2F4FF';
-      document.querySelector('body').style.color = '#53815D';
-      var elements = document.querySelectorAll("a");
-      [].slice.call(elements).forEach(function (elem) {
-        elem.style.color = "#53815D";
-      });
-    }
-
-    function changeBackground3() {
-      document.querySelector('body').style.backgroundColor = '#53815D';
-      document.querySelector('body').style.color = '#D2F4FF';
-      var elements = document.querySelectorAll("a");
-      [].slice.call(elements).forEach(function (elem) {
-        elem.style.color = "#D2F4FF";
-      });
-    }
-
-    function changeBackground4() {
-      document.querySelector('body').style.backgroundColor = '#DD3E3E';
-      document.querySelector('body').style.color = '#FFF5F5';
-      var elements = document.querySelectorAll("a");
-      [].slice.call(elements).forEach(function (elem) {
-        elem.style.color = "#FFF5F5";
-      });
-    }
-  $('#btn').on("click", function () {
-    $('#part1, #part2, #part3, #part4, #part5, #part6').css({
-      fill: "#DD3E3E"
-    });
-  });
-
-  $('#btnblue').on("click", function () {
-    $('#part1, #part2, #part3, #part4, #part5, #part6').css({
-      fill: "#53815D"
-    });
-  });
-
-  $('#btngreen').on("click", function () {
-    $('#part1, #part2, #part3, #part4, #part5, #part6').css({
-      fill: "#D2F4FF"
-    });
-  });
-
-  $('#btnred').on("click", function () {
-    $('#part1, #part2, #part3, #part4, #part5, #part6').css({
-      fill: "#FFF5F5"
-    });
-  });
-</script>
+  <script src="./script.js"></script>
 </body>
 </html>

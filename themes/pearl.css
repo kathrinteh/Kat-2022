@@ -1,10 +1,9 @@
 :root {
-  --back-color: #fed7e2;
-  --primary-color: #60b43f;
-  --header-back: #874f5e;
-  --header-text: #eee;
+  --back-color: #FFF5F5;
+  --primary-color: #DD3E3E;
+  --header-back: #5d5d5d;
+  --header-text: #DD3E3E;
 }
-
 body {
   background-color: var(--back-color);
   color: var(--primary-color);
@@ -19,9 +18,9 @@ header {
   border: 2px solid var(--primary-color);
 }
 
-a {color: yellow;}
+a {color: var(--primary-color)}
 
-.cls-1 {fill: blue;}
+.cls-1 {fill: var(--primary-color)}
 
 #smiley1-overlay {background: url(../overlays/smiley-face-overlay.png);
   background-repeat: no-repeat;
