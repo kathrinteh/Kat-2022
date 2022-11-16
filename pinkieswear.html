@@ -2,7 +2,7 @@
 <html lang="en">
 
 <head>
-  <title>Kat Teh | Pinkie Swear Ice Cream Branding Project</title>
+  <title>Kathrin Teh | Pinkie Swear Ice Cream Branding Project</title>
   <meta name="description"
     content="When writing a meta description, keep it between 140 and 160 characters so Google can display your entire message. Don’t forget to include your keyword!">
   <meta charset="UTF-8">
@@ -60,13 +60,6 @@
     <li class="header-menu-item"><a href="contact.html">Contact</a></li>
   </ul>
 
-  <ul class="button-container">
-    <li><a class="button1" id="btn" onclick="changeBackground()"> </a></li>
-    <li><a class="button2" id="btnblue" onclick="changeBackground2()"> </a></li>
-    <li><a class="button3" id="btngreen" onclick="changeBackground3()"> </a></li>
-    <li><a class="button4" id="btnred" onclick="changeBackground4()"> </a></li>
-  </ul>
-
   <div class="project-wrapper">
     <aside class="project-aside">
       <div class="project-info">
@@ -82,6 +75,7 @@
         <li class="arrow"><a href="#" class="navigation-arrow"><i class="fas fa-arrow-left fa-2x"></i></a></li>
         <li class="arrow"><a href="#" class="navigation-arrow"><i class="fas fa-arrow-right fa-2x"></i></a></li>
       </ul>
+
     </aside>
     <main class="project-images">
       <img class="project-pic" src="images/kathrin-teh--pinkie-swear-icecream-1.jpg"
@@ -92,67 +86,7 @@
       <img class="project-pic" src="images/kathrin-teh--pinkie-swear-icecream-4.jpg" alt="Mon Cherry Ice Cream.">
     </main>
   </div>
-  <!-- <script>
-    /* this is all the background change stuff when you click the buttons*/
-    function changeBackground() {
-      document.querySelector('body').style.backgroundColor = '#FFF5F5';
-      document.querySelector('body').style.color = '#DD3E3E';
-      var elements = document.querySelectorAll("a");
-      [].slice.call(elements).forEach(function (elem) {
-        elem.style.color = "#DD3E3E";
-      });
-    }
-
-    function changeBackground2() {
-      document.querySelector('body').style.backgroundColor = '#D2F4FF';
-      document.querySelector('body').style.color = '#53815D';
-      var elements = document.querySelectorAll("a");
-      [].slice.call(elements).forEach(function (elem) {
-        elem.style.color = "#53815D";
-      });
-    }
-
-    function changeBackground3() {
-      document.querySelector('body').style.backgroundColor = '#53815D';
-      document.querySelector('body').style.color = '#D2F4FF';
-      var elements = document.querySelectorAll("a");
-      [].slice.call(elements).forEach(function (elem) {
-        elem.style.color = "#D2F4FF";
-      });
-    }
-
-    function changeBackground4() {
-      document.querySelector('body').style.backgroundColor = '#DD3E3E';
-      document.querySelector('body').style.color = '#FFF5F5';
-      var elements = document.querySelectorAll("a");
-      [].slice.call(elements).forEach(function (elem) {
-        elem.style.color = "#FFF5F5";
-      });
-    }
-    $('#btn').on("click", function () {
-      $('#part1, #part2, #part3, #part4, #part5, #part6').css({
-        fill: "#DD3E3E"
-      });
-    });
-
-    $('#btnblue').on("click", function () {
-      $('#part1, #part2, #part3, #part4, #part5, #part6').css({
-        fill: "#53815D"
-      });
-    });
-
-    $('#btngreen').on("click", function () {
-      $('#part1, #part2, #part3, #part4, #part5, #part6').css({
-        fill: "#D2F4FF"
-      });
-    });
-
-    $('#btnred').on("click", function () {
-      $('#part1, #part2, #part3, #part4, #part5, #part6').css({
-        fill: "#FFF5F5"
-      });
-    });
-  </script> -->
+  
   <div class="theme-switches button-container">
     <div data-theme="pearl" class="switch" id="switch-1"></div>
     <div data-theme="red" class="switch" id="switch-2"></div>

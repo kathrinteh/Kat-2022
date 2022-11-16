@@ -342,7 +342,7 @@ p {
   }
   .branding { 
     grid-column: 1 / 3;
-    grid-row: 1 / 1;
+    grid-row: 1 / 3;
     display:flex;
   }
   .xlogo {
@@ -423,6 +423,17 @@ p {
   }
   .project-pic {
     margin-bottom: 3vh;
+  }
+
+  /* OVERLAYS */
+  #smiley1-overlay {
+    display: none;
+  }
+  #arrow2-overlay {
+    display: none;
+  }
+  #pinkieswear-overlay {
+    display: none;
   }
 
   /* THUMBNAIL IMAGES */

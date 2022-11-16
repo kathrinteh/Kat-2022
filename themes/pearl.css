@@ -28,3 +28,15 @@ a {color: var(--primary-color)}
   width: 80px;
   height: 102px;
 }
+#arrow2-overlay {background: url(../overlays/arrow-2-overlay.png);
+  background-repeat: no-repeat;
+  background-size: contain;
+  width: 80px;
+  height: 102px;
+}
+#pinkieswear-overlay {background: url(../overlays/pinkie-swear-overlay.png);
+  background-repeat: no-repeat;
+  background-size: contain;
+  width: 80px;
+  height: 102px;
+}
