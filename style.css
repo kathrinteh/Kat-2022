@@ -178,8 +178,8 @@ h5 {
   font-family: 'Space Mono', monospace;
   font-size: .9rem;
   font-weight: 400;
-  line-height: 1.2;
-  margin-bottom: .5rem;
+  line-height: 1;
+  margin-bottom: .2rem;
 }
 
 /* Hyperlink Styles */
@@ -195,6 +195,7 @@ p {
   font-size: .9rem;
   font-weight: 500;
   line-height: 1.2;
+  margin-bottom: .5rem;
 }
 
 
@@ -314,7 +315,9 @@ p {
                                                                                                
 */
 
-
+.project-page-awards {
+  margin-bottom: .5rem;
+}
 
 .arrow {
   padding-right: 1rem;
@@ -637,6 +640,8 @@ h5 {
   font-size: 1.1rem;
   font-weight: 400;
   line-height: 1.2;
+}
+.project-page-awards {
   margin-bottom: .75rem;
 }
 p {
@@ -738,7 +743,9 @@ DEVICES
     font-weight: 700;
     line-height: 1.15;
   }
-
+  .bio-sub-heading {
+    font-size: 1.1rem;
+  }
   .name {
     margin-left: .3rem;
   }
@@ -824,7 +831,6 @@ h5 {
   font-size: 1rem;
   font-weight: 400;
   line-height: 1.2;
-  margin-bottom: .75rem;
 }
 p {
   font-size: 1rem;
@@ -906,7 +912,11 @@ p {
     margin-left: .5rem;
   }
   .bio {
-    font-size: 1.8rem;
+    font-size: 2rem;
+    line-height: 1.25;
+  }
+  .bio-sub-heading {
+    font-size: 1.3rem;
   }
   .project-aside {
     width: 30%;
@@ -985,7 +995,7 @@ p {
 @media (min-width: 1390px) {
 
   .bio {
-    font-size: 2.1rem;
+    font-size: 2.4rem;
   }
 
   .header-menu {
