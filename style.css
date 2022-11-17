@@ -67,10 +67,10 @@ html {
 /* Theme Switches */
 
 
-.theme-switches {
+/* .theme-switches {
   display: flex;
   justify-content: center;
-}
+} */
 
 .switch {
   border: 2.5px solid white;
@@ -323,6 +323,11 @@ p {
   padding-right: 1rem;
 }
 
+.project-pics-beside-each-other {
+  display: flex;
+  justify-items: center;
+  width: 50%;
+}
 
 
 /*
@@ -559,9 +564,9 @@ p {
   }
 
   .button-container {
-    display: block;
+    display:inline-block;
     grid-column: 77 / 78;
-    grid-row: 37 / 44;
+    grid-row: 37 / 46;
     justify-items: center;
     align-items: center;
   }
@@ -614,7 +619,6 @@ p {
   .project-navigation {
     display: flex;
     flex-direction: row;
-
     align-items: flex-end;
   }
   
@@ -752,7 +756,7 @@ DEVICES
 
   .button-container {
     grid-column: 77 / 78;
-    grid-row: 36 / 44;
+    grid-row: 36 / 46;
   }
 
   .switch {
