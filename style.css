@@ -955,7 +955,7 @@ p {
    /* THUMBNAIL IMAGES */
    .capstone-thumbnail {
     grid-column: 7 / 17;
-    grid-row: 12 / 26;
+    grid-row: 11 / 25;
   }
 
   .kickboxing-thumbnail {
@@ -1018,7 +1018,7 @@ p {
   /* THUMBNAIL IMAGES */
   .capstone-thumbnail {
     grid-column: 7 / 17;
-    grid-row: 12 / 26;
+    grid-row: 11 / 25;
   }
 
   .kickboxing-thumbnail {
