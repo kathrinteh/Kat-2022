@@ -401,10 +401,9 @@ p {
   }
 
   .project-wrapper {
-    grid-column: 1 / 5;
-    grid-row: 8 / 20;
-    display: grid;
+    display: fixed;
     margin-top: 2rem;
+    top: 20rem;
   }
   
   /* Sidebar */
@@ -567,6 +566,9 @@ p {
     display:inline-block;
     grid-column: 77 / 78;
     grid-row: 37 / 46;
+    position: fixed;
+    bottom: 2rem;
+    right: 1.6rem;
     justify-items: center;
     align-items: center;
   }
@@ -665,8 +667,8 @@ p {
 
   /* THUMBNAIL IMAGES */
   .capstone-thumbnail {
-    grid-column: 5 / 19;
-    grid-row: 14 / 32;
+    grid-column: 4 / 19;
+    grid-row: 11 / 30;
 
     justify-items: center;
     align-items: center;
@@ -767,7 +769,7 @@ DEVICES
 
   .header-menu {
     max-width: 100%;
-    grid-column: 71 / 78;
+    grid-column: 65 / 78;
     grid-row: 1 / 7;
     justify-items: center;
   }
@@ -853,8 +855,8 @@ p {
 
   /* THUMBNAIL IMAGES */
   .capstone-thumbnail {
-    grid-column: 5 / 19;
-    grid-row: 14 / 32;
+    grid-column: 4 / 19;
+    grid-row: 12 / 30;
   }
 
   .kickboxing-thumbnail {
@@ -873,8 +875,8 @@ p {
   }
 
   .keyboard-thumbnail {
-    grid-column: 55 / 72;
-    grid-row: 33 / 46;
+    grid-column: 54 / 71;
+    grid-row: 34 / 47;
   }
 
   .baobao-thumbnail {
@@ -889,7 +891,7 @@ p {
 
   .butterly-thumbnail {
     grid-column: 30 / 42;
-    grid-row: 18 / 32;
+    grid-row: 19 / 32;
   }
 
   .profile-pic {
@@ -979,18 +981,18 @@ p {
   }
 
   .baobao-thumbnail {
-    grid-column: 48 / 64;
+    grid-column: 47 / 63;
     grid-row: 8 / 19;
   }
 
   .pinkie-swear-thumbnail {
-    grid-column: 47 / 60;
-    grid-row: 26 / 36;
+    grid-column: 48 / 61;
+    grid-row: 28 / 39;
   }
 
   .butterly-thumbnail {
     grid-column: 67 / 77;
-    grid-row: 21 / 32;
+    grid-row: 20 / 31;
   }
 }
 
@@ -1042,18 +1044,18 @@ p {
   }
 
   .baobao-thumbnail {
-    grid-column: 48 / 64;
+    grid-column: 46 / 62;
     grid-row: 8 / 19;
   }
 
   .pinkie-swear-thumbnail {
-    grid-column: 47 / 60;
-    grid-row: 26 / 36;
+    grid-column: 48 / 61;
+    grid-row: 28 / 38;
   }
 
   .butterly-thumbnail {
     grid-column: 67 / 76;
-    grid-row: 22 / 32;
+    grid-row: 18 / 28;
   }
 }
 
