@@ -401,9 +401,9 @@ p {
   }
 
   .project-wrapper {
-    display: fixed;
-    margin-top: 2rem;
-    top: 20rem;
+    grid-column: 1 / 5;
+    grid-row: 3 / 20;
+    display: grid;
   }
   
   /* Sidebar */
@@ -664,6 +664,21 @@ p {
   .project-pic {
     margin-bottom: 3rem;
   }
+
+  /* OVERLAY IMAGES */
+  #smiley1-overlay {
+    visibility: hidden;
+    width: 70%;
+   }
+   #arrow2-overlay {
+    visibility: hidden;
+   }
+   #pinkieswear-overlay {
+    grid-column: 26 / 39;
+    grid-row: 31 / 39;
+    display: none;
+    z-index: 20;
+   }
 
   /* THUMBNAIL IMAGES */
   .capstone-thumbnail {
@@ -934,22 +949,24 @@ p {
 
    /* OVERLAY IMAGES */
    #smiley1-overlay {
-    grid-column: 20 / 24;
+    grid-column: 20 / 25;
     grid-row: 20 / 26;
+    visibility: visible;
     display: none;
-    width: 80px;
-    height: 102px;
+    width: 70%;
     z-index: 20;
    }
    #arrow2-overlay {
-    grid-column: 56 / 66;
-    grid-row: 37 / 39;
+    grid-column: 58 / 66;
+    grid-row: 40 / 43;
+    visibility: visible;
     display: none;
     z-index: 20;
    }
    #pinkieswear-overlay {
     grid-column: 42 / 52;
     grid-row: 23 / 30;
+    visibility: visible;
     display: none;
     z-index: 20;
    }
@@ -1016,6 +1033,14 @@ p {
     grid-row: 1 / 7;
     display: flex;
   }
+
+  /* OVERLAY IMAGES */
+  #pinkieswear-overlay {
+    grid-column: 42 / 52;
+    grid-row: 22 / 29;
+    display: none;
+    z-index: 20;
+   }
 
   /* THUMBNAIL IMAGES */
   .capstone-thumbnail {
