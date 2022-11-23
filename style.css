@@ -433,15 +433,41 @@ p {
   }
 
   /* OVERLAYS */
-  #smiley1-overlay {
-    display: none;
-  }
-  #arrow2-overlay {
-    display: none;
-  }
-  #pinkieswear-overlay {
-    display: none;
-  }
+  #smiley1-overlay {display: none; visibility: hidden;}
+  #smiley2-overlay {display: none; visibility: hidden;}
+   #smiley3-overlay {display: none; visibility: hidden;}
+   #smiley4-overlay {display: none; visibility: hidden;}
+   #crown-overlay {display: none; visibility: hidden;}
+   #arrow1-overlay {display: none; visibility: hidden;}
+   #arrow2-overlay {display: none; visibility: hidden;}
+   #arrow3-overlay {display: none; visibility: hidden;}
+   #heart1-overlay {display: none; visibility: hidden;}
+   #heart2-overlay {display: none; visibility: hidden;}
+   #heart3-overlay {display: none; visibility: hidden;}
+   #heart4-overlay {display: none; visibility: hidden;}
+   #circle1-overlay {display: none; visibility: hidden;}
+   #circle2-overlay {display: none; visibility: hidden;}
+   #star1-overlay {display: none; visibility: hidden;}
+   #star2-overlay {display: none; visibility: hidden;}
+   #star3-overlay {display: none; visibility: hidden;}
+   #star4-overlay {display: none; visibility: hidden;}
+   #star5-overlay {display: none; visibility: hidden;}
+   #star6-overlay {display: none; visibility: hidden;}
+   #star7-overlay {display: none; visibility: hidden;}
+   #flower1-overlay {display: none; visibility: hidden;}
+   #flower2-overlay {display: none; visibility: hidden;}
+   #flower3-overlay {display: none; visibility: hidden;}
+   #flower4-overlay {display: none; visibility: hidden;}
+  #pinkieswear-overlay {display: none; visibility: hidden;}
+  #kickboxing-overlay {display: none; visibility: hidden;}
+  #baobao-overlay {display: none; visibility: hidden;}
+  #butterly-overlay {display: none; visibility: hidden;}
+  #gossamer-overlay {display: none; visibility: hidden;}
+  #keyboard1-overlay {display: none; visibility: hidden;}
+  #keyboard2-overlay {display: none; visibility: hidden;}
+  #kira-overlay {display: none; visibility: hidden;}
+  #indigenous1-overlay {display: none; visibility: hidden;}
+  #indigenous2-overlay {display: none; visibility: hidden;}
 
   /* THUMBNAIL IMAGES */
   .capstone-thumbnail {
@@ -582,7 +608,7 @@ p {
 
   .header-menu {
     max-width: 100%;
-    grid-column: 68 / 78;
+    grid-column: 65 / 78;
     grid-row: 1 / 7;
     justify-items: center;
   }
@@ -665,20 +691,36 @@ p {
     margin-bottom: 3rem;
   }
 
-  /* OVERLAY IMAGES */
-  #smiley1-overlay {
-    visibility: hidden;
-    width: 70%;
-   }
-   #arrow2-overlay {
-    visibility: hidden;
-   }
+  /* OVERLAY IMAGES
+ 
    #pinkieswear-overlay {
     grid-column: 26 / 39;
-    grid-row: 31 / 39;
+    grid-row: 32 / 39;
     display: none;
+    visibility: visible;
     z-index: 20;
    }
+   #butterly-overlay {
+    grid-column: 22 / 32;
+    grid-row: 15 / 19;
+    display: none;
+    visibility: visible;
+    z-index: 20;
+   }
+   #baobao-overlay {
+    grid-column: 48 / 55;
+    grid-row: 15 / 21;
+    display: none;
+    visibility: visible;
+    z-index: 20;
+   }
+   #kickboxing-overlay {
+    grid-column: 15 / 24;
+    grid-row: 7 / 12;
+    display: none;
+    visibility: visible;
+    z-index: 20;
+   } */
 
   /* THUMBNAIL IMAGES */
   .capstone-thumbnail {
@@ -691,49 +733,49 @@ p {
 
   .kickboxing-thumbnail {
     grid-column: 26 / 47;
-    grid-row: 6 / 18;
+    grid-row: 6 / 13;
     justify-items: center;
     align-items: center;
   }
 
   .indigenous-thumbnail {
     grid-column: 4 / 24;
-    grid-row: 32 / 46;
+    grid-row: 32 / 38;
     justify-items: center;
     align-items: center;
   }
 
   .gossamer-gin-thumbnail {
     grid-column: 54 / 73;
-    grid-row: 22 / 32;
+    grid-row: 22 / 28;
     justify-items: center;
     align-items: center;
   }
 
   .keyboard-thumbnail {
     grid-column: 55 / 72;
-    grid-row: 35 / 48;
+    grid-row: 35 / 40;
     justify-items: center;
     align-items: center;
   }
 
   .baobao-thumbnail {
     grid-column: 54 / 74;
-    grid-row: 9 / 22;
+    grid-row: 9 / 16;
     justify-items: center;
     align-items: center;
   }
 
   .pinkie-swear-thumbnail {
     grid-column: 30 / 48;
-    grid-row: 36 / 52;
+    grid-row: 36 / 42;
     justify-items: center;
     align-items: center;
   }
 
   .butterly-thumbnail {
     grid-column: 29 / 43;
-    grid-row: 19 / 35;
+    grid-row: 19 / 26;
     justify-items: center;
     align-items: center;
   }
@@ -871,17 +913,18 @@ p {
   /* THUMBNAIL IMAGES */
   .capstone-thumbnail {
     grid-column: 4 / 19;
-    grid-row: 12 / 30;
+    grid-row: 12 / 24;
+    padding-top: 0;
   }
 
   .kickboxing-thumbnail {
     grid-column: 27 / 48;
-    grid-row: 4 / 16;
+    grid-row: 4 / 12;
   }
 
   .indigenous-thumbnail {
     grid-column: 4 / 24;
-    grid-row: 32 / 46;
+    grid-row: 32 / 40;
   }
 
   .gossamer-gin-thumbnail {
@@ -891,17 +934,17 @@ p {
 
   .keyboard-thumbnail {
     grid-column: 54 / 71;
-    grid-row: 34 / 47;
+    grid-row: 34 / 40;
   }
 
   .baobao-thumbnail {
     grid-column: 57 / 76;
-    grid-row: 9 / 21;
+    grid-row: 9 / 15;
   }
 
   .pinkie-swear-thumbnail {
     grid-column: 31 / 47;
-    grid-row: 36 / 51;
+    grid-row: 36 / 43;
   }
 
   .butterly-thumbnail {
@@ -949,37 +992,260 @@ p {
 
    /* OVERLAY IMAGES */
    #smiley1-overlay {
-    grid-column: 20 / 25;
-    grid-row: 20 / 26;
+    grid-column: 20 / 24;
+    grid-row: 20 / 25;
     visibility: visible;
     display: none;
-    width: 70%;
+    z-index: 20;
+   }
+   #smiley2-overlay {
+    grid-column: 22 / 26;
+    grid-row: 35 / 40;
+    visibility: visible;
+    display: none;
+    z-index: 20;
+   }
+   #smiley3-overlay {
+    grid-column: 66 / 70;
+    grid-row: 11 / 16;
+    visibility: visible;
+    display: none;
+    z-index: 20;
+   }
+   #smiley4-overlay {
+    grid-column: 43 / 47;
+    grid-row: 41 / 45;
+    visibility: visible;
+    display: none;
+    z-index: 20;
+   }
+   #arrow1-overlay {
+    grid-column: 38 / 46;
+    grid-row: 29 / 32;
+    visibility: visible;
+    display: none;
     z-index: 20;
    }
    #arrow2-overlay {
-    grid-column: 58 / 66;
-    grid-row: 40 / 43;
+    grid-column: 58 / 67;
+    grid-row: 37 / 40;
+    visibility: visible;
+    display: none;
+    z-index: 20;
+   }
+   #arrow3-overlay {
+    grid-column: 42 / 55;
+    grid-row: 3 / 7;
+    visibility: visible;
+    display: none;
+    z-index: 20;
+   }
+   #circle1-overlay {
+    grid-column: 4 / 11;
+    grid-row: 20 / 32;
+    visibility: visible;
+    display: none;
+    z-index: 20;
+   }
+   #circle2-overlay {
+    grid-column: 63 / 70;
+    grid-row: 26 / 36;
+    visibility: visible;
+    display: none;
+    z-index: 20;
+   }
+   #heart1-overlay {
+    grid-column: 42 / 45;
+    grid-row: 2 / 6;
+    visibility: visible;
+    display: none;
+    z-index: 20;
+   }
+   #heart2-overlay {
+    grid-column: 1 / 5;
+    grid-row: 26 / 31;
+    visibility: visible;
+    display: none;
+    z-index: 20;
+   }
+   #heart3-overlay {
+    grid-column: 19 / 24;
+    grid-row: 20 / 26;
+    visibility: visible;
+    display: none;
+    z-index: 20;
+   }
+   #heart4-overlay {
+    grid-column: 23 / 28;
+    grid-row: 41 / 45;
+    visibility: visible;
+    display: none;
+    z-index: 20;
+   }
+   #star1-overlay {
+    grid-column: 23 / 28;
+    grid-row: 39 / 42;
+    visibility: visible;
+    display: none;
+    z-index: 20;
+   }
+   #star2-overlay {
+    grid-column: 64 / 70;
+    grid-row: 12 / 16;
+    visibility: visible;
+    display: none;
+    z-index: 20;
+   }
+   #star3-overlay {
+    grid-column: 41 / 45;
+    grid-row: 10 / 14;
+    visibility: visible;
+    display: none;
+    z-index: 20;
+   }
+   #star4-overlay {
+    grid-column: 1 / 5;
+    grid-row: 25 / 28;
+    visibility: visible;
+    display: none;
+    z-index: 20;
+   }
+   #star5-overlay {
+    grid-column: 62 / 70;
+    grid-row: 37 / 42;
+    visibility: visible;
+    display: none;
+    z-index: 20;
+   }
+   #star6-overlay {
+    grid-column: 43 / 48;
+    grid-row: 40 / 45;
+    visibility: visible;
+    display: none;
+    z-index: 20;
+   }
+   #star7-overlay {
+    grid-column: 1 / 5;
+    grid-row: 12 / 16;
+    visibility: visible;
+    display: none;
+    z-index: 20;
+   }
+   #flower1-overlay {
+    grid-column: 63 / 66;
+    grid-row: 32 / 37;
+    visibility: visible;
+    display: none;
+    z-index: 20;
+   }
+   #flower2-overlay {
+    grid-column: 42 / 46;
+    grid-row: 22 / 26;
+    visibility: visible;
+    display: none;
+    z-index: 20;
+   }
+   #flower3-overlay {
+    grid-column: 65 / 72;
+    grid-row: 9 / 15;
+    visibility: visible;
+    display: none;
+    z-index: 20;
+   }
+   #flower4-overlay {
+    grid-column: 62 / 68;
+    grid-row: 37 / 42;
+    visibility: visible;
+    display: none;
+    z-index: 20;
+   }
+   #crown-overlay {
+    grid-column: 62 / 66;
+    grid-row: 4 / 10;
     visibility: visible;
     display: none;
     z-index: 20;
    }
    #pinkieswear-overlay {
-    grid-column: 42 / 52;
-    grid-row: 23 / 30;
-    visibility: visible;
+    grid-column: 42 / 53;
+    grid-row: 23 / 28;
     display: none;
+    visibility: visible;
+    z-index: 20;
+   }
+   #butterly-overlay {
+    grid-column: 69 / 78;
+    grid-row: 15 / 19;
+    display: none;
+    visibility: visible;
+    z-index: 20;
+   }
+   #baobao-overlay {
+    grid-column: 64 / 70;
+    grid-row: 9 / 16;
+    display: none;
+    visibility: visible;
+    z-index: 20;
+   }
+   #kickboxing-overlay {
+    grid-column: 15 / 23;
+    grid-row: 7 / 13;
+    display: none;
+    visibility: visible;
+    z-index: 20;
+   }
+   #gossamer-overlay {
+    grid-column: 19 / 27;
+    grid-row: 17 / 24;
+    display: none;
+    visibility: visible;
+    z-index: 20;
+   }
+   #kira-overlay {
+    grid-column: 15 / 21;
+    grid-row: 8/ 16;
+    display: none;
+    visibility: visible;
+    z-index: 20;
+   }
+   #indigenous1-overlay {
+    grid-column: 1 / 8;
+    grid-row: 28 / 34;
+    display: none;
+    visibility: visible;
+    z-index: 20;
+   }
+   #indigenous2-overlay {
+    grid-column: 19 / 27;
+    grid-row: 38 / 44;
+    display: none;
+    visibility: visible;
+    z-index: 20;
+   }
+   #keyboard1-overlay {
+    grid-column: 21 / 28;
+    grid-row: 34 / 39;
+    display: none;
+    visibility: visible;
+    z-index: 20;
+   }
+   #keyboard2-overlay {
+    grid-column: 42 / 48;
+    grid-row: 40 / 45;
+    display: none;
+    visibility: visible;
     z-index: 20;
    }
 
    /* THUMBNAIL IMAGES */
    .capstone-thumbnail {
     grid-column: 7 / 17;
-    grid-row: 11 / 25;
+    grid-row: 13 / 21;
   }
 
   .kickboxing-thumbnail {
     grid-column: 24 / 40;
-    grid-row: 5 / 14;
+    grid-row: 5 / 12;
   }
 
   .indigenous-thumbnail {
@@ -1014,7 +1280,7 @@ p {
 }
 
 
-/* X-Large devices (large desktops, 1200px and up)*/
+/* X-Large devices (large desktops, 1390px and up)*/
 @media (min-width: 1390px) {
 
   .bio {
@@ -1035,17 +1301,57 @@ p {
   }
 
   /* OVERLAY IMAGES */
+  #keyboard1-overlay {
+    grid-column: 22 / 29;
+    grid-row: 32 / 37;
+   }
+  #arrow1-overlay {
+    grid-column: 38 / 45;
+    grid-row: 30 / 34;
+   }
+  #arrow2-overlay {
+    grid-column: 58 / 66;
+    grid-row: 40 / 43;
+   }
+  #smiley3-overlay {
+    grid-column: 64 / 70;
+    grid-row: 11 / 16;
+   }
   #pinkieswear-overlay {
     grid-column: 42 / 52;
-    grid-row: 22 / 29;
-    display: none;
-    z-index: 20;
+    grid-row: 22 / 27;
+   }
+   #kickboxing-overlay {
+    grid-row: 5 / 12;
+   }
+   #baobao-overlay {
+    grid-column: 63 / 68;
+   }
+   #heart4-overlay {
+    grid-column: 25 / 30;
+   }
+   #butterly-overlay {
+    grid-row: 12 / 17;
+   }
+   #kira-overlay {
+    grid-row: 6 / 14;
+   }
+   #circle1-overlay {
+    grid-column: 4 / 10;
+    grid-row: 22 / 30;
+   }
+   #indigenous2-overlay {
+    grid-row: 40 / 46;
+   }
+   #gossamer-overlay {
+    grid-column: 21 / 28;
+    grid-row: 17 / 23;
    }
 
   /* THUMBNAIL IMAGES */
   .capstone-thumbnail {
     grid-column: 7 / 17;
-    grid-row: 11 / 25;
+    grid-row: 12 / 25;
   }
 
   .kickboxing-thumbnail {
@@ -1060,7 +1366,7 @@ p {
 
   .gossamer-gin-thumbnail {
     grid-column: 27 / 40;
-    grid-row: 20 / 32;
+    grid-row: 20 / 27;
   }
 
   .keyboard-thumbnail {
