@@ -21,3 +21,148 @@ header {
 a {color: var(--primary-color)}
 
 .cls-1 {fill: var(--primary-color)}
+
+#smiley1-overlay {background: url(../overlays/smiley-face-overlay-green.png);
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+#smiley2-overlay {background: url(../overlays/smiley-2-overlay-green.png);
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+#smiley3-overlay {background: url(../overlays/smiley-3-overlay-green.png);
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+#smiley4-overlay {background: url(../overlays/smiley-3-overlay-green.png);
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+#arrow1-overlay {background: url(../overlays/arrow-2-overlay-green.png);
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+#arrow2-overlay {background: url(../overlays/arrow-2-overlay-green.png);
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+#arrow3-overlay {background: url(../overlays/arrow-3-overlay-green.png);
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+#circle1-overlay {background: url(../overlays/circle-1-overlay-green.png);
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+#circle2-overlay {background: url(../overlays/circle-1-overlay-green.png);
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+#crown-overlay {background: url(../overlays/crown-overlay-green.png);
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+#heart1-overlay {background: url(../overlays/heart-1-overlay-green.png);
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+#heart2-overlay {background: url(../overlays/heart-2-overlay-green.png);
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+#heart3-overlay {background: url(../overlays/heart-2-overlay-green.png);
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+#heart4-overlay {background: url(../overlays/heart-3-overlay-green.png);
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+#star1-overlay {background: url(../overlays/star-1-overlay-green.png);
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+#star2-overlay {background: url(../overlays/stars-overlay-green.png);
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+#star3-overlay {background: url(../overlays/star-1-overlay-green.png);
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+#star4-overlay {background: url(../overlays/star-1-overlay-green.png);
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+#star5-overlay {background: url(../overlays/stars-overlay-green.png);
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+#star6-overlay {background: url(../overlays/stars-overlay-green.png);
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+#star7-overlay {background: url(../overlays/star-1-overlay-green.png);
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+#crown-overlay {background: url(../overlays/crown-overlay-green.png);
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+#flower1-overlay {background: url(../overlays/flower-overlay-green.png);
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+#flower2-overlay {background: url(../overlays/flower-overlay-green.png);
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+#flower3-overlay {background: url(../overlays/flowers-overlay-green.png);
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+#flower4-overlay {background: url(../overlays/flowers-overlay-green.png);
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+#pinkieswear-overlay {background: url(../overlays/pinkie-swear-overlay-green.png);
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+#kickboxing-overlay {background: url(../overlays/kickboxing-overlay-green.png);
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+#baobao-overlay {background: url(../overlays/baobao-overlay-green.png);
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+#butterly-overlay {background: url(../overlays/butterly-overlay-green.png);
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+#gossamer-overlay {background: url(../overlays/gossamer-overlay-green.png);
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+#keyboard1-overlay {background: url(../overlays/magical-girl-1-overlay-green.png);
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+#keyboard2-overlay {background: url(../overlays/magical-girl-2-overlay-green.png);
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+#kira-overlay {background: url(../overlays/kira-overlay-green.png);
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+#indigenous1-overlay {background: url(../overlays/indigenous-1-overlay-green.png);
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+#indigenous2-overlay {background: url(../overlays/indigenous-2-overlay-green.png);
+  background-repeat: no-repeat;
+  background-size: contain;
+}

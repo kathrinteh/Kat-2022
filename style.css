@@ -1195,7 +1195,7 @@ p {
     z-index: 20;
    }
    #gossamer-overlay {
-    grid-column: 19 / 27;
+    grid-column: 20 / 27;
     grid-row: 17 / 24;
     display: none;
     visibility: visible;
@@ -1216,8 +1216,8 @@ p {
     z-index: 20;
    }
    #indigenous2-overlay {
-    grid-column: 19 / 27;
-    grid-row: 38 / 44;
+    grid-column: 20 / 27;
+    grid-row: 38 / 43;
     display: none;
     visibility: visible;
     z-index: 20;
@@ -1230,7 +1230,7 @@ p {
     z-index: 20;
    }
    #keyboard2-overlay {
-    grid-column: 42 / 48;
+    grid-column: 42 / 47;
     grid-row: 40 / 45;
     display: none;
     visibility: visible;
@@ -1302,8 +1302,8 @@ p {
 
   /* OVERLAY IMAGES */
   #keyboard1-overlay {
-    grid-column: 22 / 29;
-    grid-row: 32 / 37;
+    grid-column: 22 / 30;
+    grid-row: 31 / 37;
    }
   #arrow1-overlay {
     grid-column: 38 / 45;
@@ -1344,7 +1344,7 @@ p {
     grid-row: 40 / 46;
    }
    #gossamer-overlay {
-    grid-column: 21 / 28;
+    grid-column: 22 / 28;
     grid-row: 17 / 23;
    }
 
