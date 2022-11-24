@@ -263,7 +263,29 @@ p {
 ██       ██████   ██████     ██    ███████ ██   ██ 
                                                    
 */
-
+.social-icons{
+  display: flex;
+  height: 2rem;
+  justify-content: center;
+}
+.social-icons-2{
+  display: flex;
+  height: 2rem;
+  justify-content: center;
+  margin-bottom: 2.3rem;
+}
+.icon {
+  height: 2rem;
+  width: 2rem;
+  margin-left: 1rem;
+  margin-right: 1rem;
+}
+.icon-2 {
+  height: 2rem;
+  width: 2rem;
+  margin-left: 1rem;
+  margin-right: 1rem;
+}
 
 /* .button1 {
   background-color: #FFF5F5;
@@ -563,6 +585,9 @@ p {
     line-height: 1.6;
     text-align: left;
   }
+  .social-icons-2 {
+    justify-content: left;
+  }
 
   .bio {
     font-size: 1.5rem;
@@ -578,7 +603,7 @@ p {
 
   .about-text {
     grid-column: 43 / 69;
-    grid-row: 9 / 30;
+    grid-row: 9 / 50;
   }
 
   .header-menu-item {
@@ -811,6 +836,9 @@ DEVICES
   }
   .name {
     margin-left: .3rem;
+  }
+  .icon-2 {
+    margin-left: 0;
   }
 
   .button-container {
