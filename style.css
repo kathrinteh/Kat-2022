@@ -274,6 +274,12 @@ p {
   justify-content: center;
   margin-bottom: 2.3rem;
 }
+.social-icons-3{
+  display: flex;
+  height: 2rem;
+  justify-content: center;
+  margin-bottom: .5rem;
+}
 .icon {
   height: 2rem;
   width: 2rem;
@@ -390,6 +396,10 @@ p {
     line-height: 1.6;
     text-align: center;
     padding-bottom: 4vh;
+  }
+  .social-icons-3 {
+    grid-column: 1 / 5;
+    grid-row: 93 / 95;
   }
 
   .bio {
@@ -587,6 +597,10 @@ p {
   }
   .social-icons-2 {
     justify-content: left;
+  }
+  .social-icons-3 {
+    display: none;
+    visibility: hidden;
   }
 
   .bio {
