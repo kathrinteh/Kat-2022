@@ -263,29 +263,34 @@ p {
 ██       ██████   ██████     ██    ███████ ██   ██ 
                                                    
 */
+/* this is for project pages */
 .social-icons{
   display: flex;
   height: 2rem;
   justify-content: center;
 }
+/* this is for about page */
 .social-icons-2{
   display: flex;
   height: 2rem;
   justify-content: center;
   margin-bottom: 2.3rem;
 }
+/* this is for mobile */
 .social-icons-3{
   display: flex;
   height: 2rem;
   justify-content: center;
   margin-bottom: .5rem;
 }
+/* this is for project pages */
 .icon {
   height: 2rem;
   width: 2rem;
   margin-left: 1rem;
   margin-right: 1rem;
 }
+/* this is for about page */
 .icon-2 {
   height: 2rem;
   width: 2rem;
