@@ -784,7 +784,7 @@ p {
 
   .indigenous-thumbnail {
     grid-column: 4 / 24;
-    grid-row: 32 / 38;
+    grid-row: 30 / 36;
     justify-items: center;
     align-items: center;
   }
