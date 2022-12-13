@@ -362,6 +362,10 @@ p {
   width: 50%;
 }
 
+.project-pic{
+  width: 100%;
+}
+
 
 /*
 
@@ -1464,5 +1468,8 @@ p {
   }
   .bio {
     font-size: 2.9rem;
+  }
+  .project-images{
+    margin-left: 3rem;
   }
 }
