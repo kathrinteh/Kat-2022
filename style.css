@@ -1293,14 +1293,14 @@ p {
    }
    #keyboard1-overlay {
     grid-column: 21 / 28;
-    grid-row: 34 / 39;
+    grid-row: 33 / 38;
     display: none;
     visibility: visible;
     z-index: 20;
    }
    #keyboard2-overlay {
     grid-column: 42 / 47;
-    grid-row: 40 / 45;
+    grid-row: 39 / 44;
     display: none;
     visibility: visible;
     z-index: 20;
@@ -1329,7 +1329,7 @@ p {
 
   .keyboard-thumbnail {
     grid-column: 28 / 41;
-    grid-row: 36 / 44;
+    grid-row: 35 / 43;
   }
 
   .baobao-thumbnail {
