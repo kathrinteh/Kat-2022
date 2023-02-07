@@ -14,6 +14,29 @@ for (let i of switches) {
   });
 }
 
+$( function() {
+  $( "#draggable" ).draggable();
+  $( "#draggable2" ).draggable();
+  $( "#draggable3" ).draggable();
+  $( "#draggable4" ).draggable();
+  $( "#draggable5" ).draggable();
+  $( "#draggable6" ).draggable();
+  $( "#draggable7" ).draggable();
+  $( "#draggable8" ).draggable();
+  $( "#draggable9" ).draggable();
+  $( "#draggable10" ).draggable();
+  $( "#draggable11" ).draggable();
+  $( "#draggable12" ).draggable();
+  $( "#draggable13" ).draggable();
+  $( "#draggable14" ).draggable();
+  $( "#draggable15" ).draggable();
+  $( "#draggable16" ).draggable();
+} );
+$('.move-to-front').mousedown(function() {
+  $('.front').css('z-index','0').removeClass('front');
+  $(this).addClass('front').css('z-index','100');
+});
+
 function setTheme(theme) {
   if (theme == 'pearl') {
     document.getElementById('switcher-id').href = './themes/pearl.css';
