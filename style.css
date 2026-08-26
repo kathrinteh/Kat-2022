@@ -2039,12 +2039,38 @@ p {
   }
 }
 
-/* Ultrawide displays: preserve the established desktop composition without
-   stretching image cells across the extra horizontal space. */
+/* Ultrawide displays: use the extra horizontal space while keeping every
+   image inside its own grid area. */
 @media (min-width: 1200px) and (min-aspect-ratio: 21 / 9) {
   .grid-container {
-    max-width: 177.7778vh;
-    margin-inline: auto;
+    max-width: none;
+    margin-inline: 0;
+  }
+
+  .capstone-thumbnail,
+  .kickboxing-thumbnail,
+  .indigenous-thumbnail,
+  .gossamer-gin-thumbnail,
+  .keyboard-thumbnail,
+  .baobao-thumbnail,
+  .pinkie-swear-thumbnail,
+  .butterly-thumbnail {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .capstone-thumbnail img,
+  .kickboxing-thumbnail img,
+  .indigenous-thumbnail img,
+  .gossamer-gin-thumbnail img,
+  .keyboard-thumbnail img,
+  .baobao-thumbnail img,
+  .pinkie-swear-thumbnail img,
+  .butterly-thumbnail img {
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
   }
 
   /* Keep decorative artwork clear of thumbnails. Circles intentionally remain
@@ -2078,5 +2104,22 @@ p {
 @media (min-width: 1390px) and (min-aspect-ratio: 21 / 9) {
   #gossamer-overlay {
     grid-column: 20 / 27;
+  }
+}
+
+/* Keep the site header in the viewport corners on desktop layouts. */
+@media (min-width: 768px) {
+  .branding {
+    position: fixed;
+    top: 2rem;
+    left: 1.6rem;
+    z-index: 100;
+  }
+
+  .header-menu {
+    position: fixed;
+    top: 2rem;
+    right: 1.6rem;
+    z-index: 100;
   }
 }
