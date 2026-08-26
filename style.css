@@ -163,7 +163,7 @@ h2 {
 }
 /*project page secondary text under title*/
 h3 {
-  font-size: 1.2rem;
+  font-size: .75rem;
   font-weight: 500;
   line-height: 1.3;
   margin-bottom: .3rem;
@@ -198,7 +198,7 @@ a:active {}
 
 p {
   font-size: .9rem;
-  font-weight: 400;
+  font-weight: 500;
   line-height: 1.2;
   margin-bottom: .5rem;
 }
