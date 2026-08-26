@@ -2071,6 +2071,7 @@ p {
     width: 100%;
     height: 100%;
     object-fit: contain;
+    transform: scale(1.05);
   }
 
   /* Keep decorative artwork clear of thumbnails. Circles intentionally remain
@@ -2082,11 +2083,11 @@ p {
 
   #kira-overlay {
     grid-column: 18 / 24;
-    grid-row: 6 / 14;
+    grid-row: 14 / 22;
   }
 
   #keyboard1-overlay {
-    grid-column: 20 / 28;
+    grid-column: 19 / 27;
     grid-row: 31 / 37;
   }
 
@@ -2099,11 +2100,15 @@ p {
     grid-column: 23 / 28;
     grid-row: 41 / 45;
   }
+
+  #star5-overlay {
+    grid-column: 63 / 71;
+  }
 }
 
 @media (min-width: 1390px) and (min-aspect-ratio: 21 / 9) {
   #gossamer-overlay {
-    grid-column: 20 / 27;
+    grid-column: 19 / 26;
   }
 }
 
