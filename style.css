@@ -2038,3 +2038,45 @@ p {
     cursor: move;
   }
 }
+
+/* Ultrawide displays: preserve the established desktop composition without
+   stretching image cells across the extra horizontal space. */
+@media (min-width: 1200px) and (min-aspect-ratio: 21 / 9) {
+  .grid-container {
+    max-width: 177.7778vh;
+    margin-inline: auto;
+  }
+
+  /* Keep decorative artwork clear of thumbnails. Circles intentionally remain
+     over their associated project pieces. */
+  #gossamer-overlay {
+    grid-column: 19 / 26;
+    grid-row: 17 / 23;
+  }
+
+  #kira-overlay {
+    grid-column: 18 / 24;
+    grid-row: 6 / 14;
+  }
+
+  #keyboard1-overlay {
+    grid-column: 20 / 28;
+    grid-row: 31 / 37;
+  }
+
+  #indigenous1-overlay {
+    grid-column: 21 / 28;
+    grid-row: 29 / 35;
+  }
+
+  #heart4-overlay {
+    grid-column: 23 / 28;
+    grid-row: 41 / 45;
+  }
+}
+
+@media (min-width: 1390px) and (min-aspect-ratio: 21 / 9) {
+  #gossamer-overlay {
+    grid-column: 20 / 27;
+  }
+}
