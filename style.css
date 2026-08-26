@@ -2071,7 +2071,7 @@ p {
     width: 100%;
     height: 100%;
     object-fit: contain;
-    transform: scale(1.05);
+    transform: scale(1.25);
   }
 
   /* Keep decorative artwork clear of thumbnails. Circles intentionally remain
@@ -2082,7 +2082,7 @@ p {
   }
 
   #kira-overlay {
-    grid-column: 18 / 24;
+    grid-column: 19 / 25;
     grid-row: 14 / 22;
   }
 
@@ -2097,12 +2097,64 @@ p {
   }
 
   #heart4-overlay {
-    grid-column: 23 / 28;
-    grid-row: 41 / 45;
+    grid-column: 37 / 42;
+    grid-row: 43 / 47;
   }
 
   #star5-overlay {
-    grid-column: 63 / 71;
+    grid-column: 65 / 73;
+  }
+
+  #kickboxing-overlay {
+    grid-column: 12 / 20;
+    grid-row: 2 / 8;
+  }
+
+  #pinkieswear-overlay {
+    grid-row: 20 / 25;
+  }
+
+  #baobao-overlay {
+    grid-column: 65 / 70;
+  }
+
+  #butterly-overlay {
+    grid-row: 10 / 14;
+  }
+
+  #keyboard2-overlay {
+    grid-column: 43 / 48;
+    grid-row: 41 / 46;
+  }
+
+  #indigenous1-overlay {
+    grid-column: 21 / 28;
+    grid-row: 43 / 49;
+  }
+
+  #indigenous2-overlay {
+    grid-column: 29 / 36;
+    grid-row: 43 / 49;
+  }
+
+  #smiley2-overlay {
+    grid-column: 23 / 27;
+  }
+
+  #smiley1-overlay {
+    grid-column: 42 / 46;
+  }
+
+  #heart2-overlay {
+    grid-row: 22 / 27;
+  }
+
+  #crown-overlay {
+    grid-column: 67 / 71;
+  }
+
+  #arrow3-overlay {
+    grid-row: 1 / 5;
   }
 }
 
