@@ -2038,3 +2038,42 @@ p {
     cursor: move;
   }
 }
+
+/* Desktop overlay clearance. Circle artwork is intentionally allowed to
+   overlap its associated thumbnail; all other overlay areas stay separate. */
+@media (min-width: 1200px) {
+  #arrow1-overlay {
+    grid-column: 38 / 46;
+    grid-row: 43 / 46;
+  }
+
+  #arrow2-overlay {
+    grid-column: 58 / 67;
+    grid-row: 43 / 46;
+  }
+
+  #gossamer-overlay {
+    grid-column: 20 / 27;
+    grid-row: 17 / 24;
+  }
+
+  #kira-overlay {
+    grid-column: 18 / 24;
+    grid-row: 6 / 14;
+  }
+
+  #indigenous1-overlay {
+    grid-column: 8 / 15;
+    grid-row: 22 / 28;
+  }
+
+  #keyboard1-overlay {
+    grid-column: 20 / 28;
+    grid-row: 31 / 37;
+  }
+
+  #heart4-overlay {
+    grid-column: 23 / 28;
+    grid-row: 41 / 45;
+  }
+}
