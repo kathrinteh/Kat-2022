@@ -1220,6 +1220,7 @@ p {
   .project-images {
     width: 100%;
     padding: 1rem;
+    margin-right: .25rem;
   }
   .project-pic {
     margin-bottom: 3rem;
