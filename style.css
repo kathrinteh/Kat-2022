@@ -900,6 +900,7 @@ p {
   .project-images {
     width: 100%;
     padding: 1rem;
+    margin-right: .5rem;
   }
   .project-pic {
     margin-bottom: 3rem;
@@ -1706,10 +1707,10 @@ p {
     height: 2.6rem;
   }
 
-   .xlogo {
+   /* .xlogo {
     width: 8.313rem;
     height: 9.625rem;
-  }
+  } */
 
   .header-menu {
     max-width: 100%;
@@ -1913,9 +1914,13 @@ p {
 
 /* XX-Large devices (larger desktops, 1400px and up) */
 @media (min-width: 1900px) {
-  .xlogo {
+  /* .xlogo {
     width: 10.813rem;
     height: 12.125rem;
+  } */
+  .xlogo {
+    width: 8.313rem;
+    height: 9.625rem;
   }
   h1 {
     font-size: 3.2rem;
