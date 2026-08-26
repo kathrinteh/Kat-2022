@@ -38,16 +38,36 @@ $('.move-to-front').mousedown(function() {
 });
 
 function setTheme(theme) {
+  const themeStylesheet = document.getElementById('switcher-id');
+
+  // Overlay elements are hidden until hovered, so browsers may defer loading
+  // their CSS background images. Start those requests when the active theme
+  // stylesheet is ready, keeping hover interactions instant.
+  themeStylesheet.addEventListener('load', preloadOverlayImages, { once: true });
+
   if (theme == 'pearl') {
-    document.getElementById('switcher-id').href = './themes/pearl.css';
+    themeStylesheet.href = './themes/pearl.css';
   } else if (theme == 'red') {
-    document.getElementById('switcher-id').href = './themes/red.css';
+    themeStylesheet.href = './themes/red.css';
   } else if (theme == 'green') {
-    document.getElementById('switcher-id').href = './themes/green.css';
+    themeStylesheet.href = './themes/green.css';
   } else if (theme == 'blue') {
-    document.getElementById('switcher-id').href = './themes/blue.css';
+    themeStylesheet.href = './themes/blue.css';
   }
+
   localStorage.setItem('style', theme);
+}
+
+function preloadOverlayImages() {
+  document.querySelectorAll('[id$="-overlay"]').forEach((overlay) => {
+    const backgroundImage = window.getComputedStyle(overlay).backgroundImage;
+    const imageUrl = backgroundImage.match(/^url\(["']?(.*?)["']?\)$/);
+
+    if (imageUrl) {
+      const image = new Image();
+      image.src = imageUrl[1];
+    }
+  });
 }
 
   /* this is all the overlay hover shit*/
