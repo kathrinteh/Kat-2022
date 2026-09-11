@@ -520,16 +520,15 @@ p {
    #flower2-overlay {display: none; visibility: hidden;}
    #flower3-overlay {display: none; visibility: hidden;}
    #flower4-overlay {display: none; visibility: hidden;}
-  #pinkieswear-overlay {display: none; visibility: hidden;}
-  #kickboxing-overlay {display: none; visibility: hidden;}
-  #baobao-overlay {display: none; visibility: hidden;}
-  #butterly-overlay {display: none; visibility: hidden;}
-  #gossamer-overlay {display: none; visibility: hidden;}
-  #keyboard1-overlay {display: none; visibility: hidden;}
-  #keyboard2-overlay {display: none; visibility: hidden;}
-  #kira-overlay {display: none; visibility: hidden;}
-  #indigenous1-overlay {display: none; visibility: hidden;}
-  #indigenous2-overlay {display: none; visibility: hidden;}
+    #Afterdark-overlay {display: none; visibility: hidden;}
+    #Bakesale-1-overlay {display: none; visibility: hidden;}
+    #Bakesale-2-overlay {display: none; visibility: hidden;}
+    /* #baobao-overlay {display: none; visibility: hidden;} */
+    #Crunch-overlay {display: none; visibility: hidden;}
+    #Chinatown-overlay {display: none; visibility: hidden;}
+    #Hatsoff-overlay {display: none; visibility: hidden;}
+    #SpongeBob-1-overlay {display: none; visibility: hidden;}
+    #SpongeBob-2-overlay {display: none; visibility: hidden;}
 
   /* THUMBNAIL IMAGES */
   .capstone-thumbnail {
@@ -1445,7 +1444,7 @@ p {
    }
    #arrow2-overlay {
     grid-column: 58 / 67;
-    grid-row: 37 / 40;
+    grid-row: 35 / 40;
     visibility: visible;
     display: none;
     z-index: 20;
@@ -1597,13 +1596,13 @@ p {
     visibility: visible;
     z-index: 20;
    }
-   #baobao-overlay {
+   /* #baobao-overlay {
     grid-column: 64 / 70;
     grid-row: 9 / 16;
     display: none;
     visibility: visible;
     z-index: 20;
-   }
+   } */
    #kickboxing-overlay {
     grid-column: 15 / 23;
     grid-row: 7 / 13;
@@ -1737,7 +1736,7 @@ p {
    }
   #arrow2-overlay {
     grid-column: 58 / 66;
-    grid-row: 40 / 43;
+    grid-row: 37 / 43;
    }
   #smiley3-overlay {
     grid-column: 64 / 70;
@@ -1750,9 +1749,9 @@ p {
    #kickboxing-overlay {
     grid-row: 5 / 12;
    }
-   #baobao-overlay {
+   /* #baobao-overlay {
     grid-column: 63 / 68;
-   }
+   } */
    #heart4-overlay {
     grid-column: 25 / 30;
    }

@@ -62,7 +62,7 @@
     $("#pinkieswear").hover(function () {
       $("#smiley1-overlay").toggle();
       $("#arrow2-overlay").toggle();
-      $("#pinkieswear-overlay").toggle();
+      $("#Crunch-overlay").toggle();
     });
 
     $("#smiley1-overlay").hover(function () {
@@ -77,8 +77,8 @@
     $("#arrow2-overlay").mouseout(function () {
       $("#arrow2-overlay").hide();
     });
-    $("#pinkieswear-overlay").hover(function () {
-      $("#pinkieswear-overlay").show();
+    $("#Crunch-overlay").hover(function () {
+      $("#Crunch-overlay").show();
     });
     $("#pinkieswear-overlay").mouseout(function () {
       $("#pinkieswear-overlay").hide();
